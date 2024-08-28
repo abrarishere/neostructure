@@ -1,0 +1,12 @@
+# Git ignore for pytjon
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+venv/
+*.swp
+*.swo
+*.swn
+*.swm
+*.swl
+
