@@ -1,256 +1,4 @@
 {
-    "Contents": [
-        {
-            "name": "Plugin Manager",
-            "url": "#plugin-manager",
-            "description": ""
-        },
-        {
-            "name": "LSP",
-            "url": "#lsp",
-            "description": ""
-        },
-        {
-            "name": "Completion",
-            "url": "#completion",
-            "description": ""
-        },
-        {
-            "name": "AI",
-            "url": "#ai",
-            "description": ""
-        },
-        {
-            "name": "Programming Languages Support",
-            "url": "#programming-languages-support",
-            "description": ""
-        },
-        {
-            "name": "Language",
-            "url": "#language",
-            "description": ""
-        },
-        {
-            "name": "Syntax",
-            "url": "#syntax",
-            "description": ""
-        },
-        {
-            "name": "Snippet",
-            "url": "#snippet",
-            "description": ""
-        },
-        {
-            "name": "Register",
-            "url": "#register",
-            "description": ""
-        },
-        {
-            "name": "Marks",
-            "url": "#marks",
-            "description": ""
-        },
-        {
-            "name": "Search",
-            "url": "#search",
-            "description": ""
-        },
-        {
-            "name": "Fuzzy Finder",
-            "url": "#fuzzy-finder",
-            "description": ""
-        },
-        {
-            "name": "File Explorer",
-            "url": "#file-explorer",
-            "description": ""
-        },
-        {
-            "name": "Project",
-            "url": "#project",
-            "description": ""
-        },
-        {
-            "name": "Color",
-            "url": "#color",
-            "description": ""
-        },
-        {
-            "name": "Colorscheme",
-            "url": "#colorscheme",
-            "description": ""
-        },
-        {
-            "name": "Bars and Lines",
-            "url": "#bars-and-lines",
-            "description": ""
-        },
-        {
-            "name": "Startup",
-            "url": "#startup",
-            "description": ""
-        },
-        {
-            "name": "Icon",
-            "url": "#icon",
-            "description": ""
-        },
-        {
-            "name": "Media",
-            "url": "#media",
-            "description": ""
-        },
-        {
-            "name": "Note Taking",
-            "url": "#note-taking",
-            "description": ""
-        },
-        {
-            "name": "Utility",
-            "url": "#utility",
-            "description": ""
-        },
-        {
-            "name": "Terminal Integration",
-            "url": "#terminal-integration",
-            "description": ""
-        },
-        {
-            "name": "Debugging",
-            "url": "#debugging",
-            "description": ""
-        },
-        {
-            "name": "Deployment",
-            "url": "#deployment",
-            "description": ""
-        },
-        {
-            "name": "Test",
-            "url": "#test",
-            "description": ""
-        },
-        {
-            "name": "Code Runner",
-            "url": "#code-runner",
-            "description": ""
-        },
-        {
-            "name": "Neovim Lua Development",
-            "url": "#neovim-lua-development",
-            "description": ""
-        },
-        {
-            "name": "Fennel",
-            "url": "#fennel",
-            "description": ""
-        },
-        {
-            "name": "Dependency Management",
-            "url": "#dependency-management",
-            "description": ""
-        },
-        {
-            "name": "Git",
-            "url": "#git",
-            "description": ""
-        },
-        {
-            "name": "Motion",
-            "url": "#motion",
-            "description": ""
-        },
-        {
-            "name": "Keybinding",
-            "url": "#keybinding",
-            "description": ""
-        },
-        {
-            "name": "Mouse",
-            "url": "#mouse",
-            "description": ""
-        },
-        {
-            "name": "Scrolling",
-            "url": "#scrolling",
-            "description": ""
-        },
-        {
-            "name": "Editing Support",
-            "url": "#editing-support",
-            "description": ""
-        },
-        {
-            "name": "Formatting",
-            "url": "#formatting",
-            "description": ""
-        },
-        {
-            "name": "Command Line",
-            "url": "#command-line",
-            "description": ""
-        },
-        {
-            "name": "Session",
-            "url": "#session",
-            "description": ""
-        },
-        {
-            "name": "Remote Development",
-            "url": "#remote-development",
-            "description": ""
-        },
-        {
-            "name": "Split and Window",
-            "url": "#split-and-window",
-            "description": ""
-        },
-        {
-            "name": "Game",
-            "url": "#game",
-            "description": ""
-        },
-        {
-            "name": "Workflow",
-            "url": "#workflow",
-            "description": ""
-        },
-        {
-            "name": "Preconfigured Configuration",
-            "url": "#preconfigured-configuration",
-            "description": ""
-        },
-        {
-            "name": "External",
-            "url": "#external",
-            "description": ""
-        },
-        {
-            "name": "Wishlist",
-            "url": "#wishlist",
-            "description": ""
-        },
-        {
-            "name": "UI",
-            "url": "#ui",
-            "description": ""
-        },
-        {
-            "name": "Starter Templates",
-            "url": "#starter-templates",
-            "description": ""
-        },
-        {
-            "name": "Vim",
-            "url": "#vim",
-            "description": ""
-        },
-        {
-            "name": "Resource",
-            "url": "#resource",
-            "description": ""
-        }
-    ],
     "Plugin Manager": [
         {
             "name": "lewis6991/pckr.nvim",
@@ -270,7 +18,7 @@
         {
             "name": "chiyadev/dep",
             "url": "https://github.com/chiyadev/dep",
-            "description": "An alternative to packer.nvim. It was built to be even better and easier to use. Context can be found [here"
+            "description": "An alternative to packer.nvim. It was built to be even better and easier to use. Context can be found [here](https://chiya.dev/posts/2021-11-27-why-package-manager)."
         },
         {
             "name": "folke/lazy.nvim",
@@ -288,12 +36,12 @@
             "description": "A modern approach to plugin management using Luarocks, inspired by Cargo."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.deps",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-deps.md",
-            "description": "Module of `mini.nvim` for managing other plugins. Uses Git and builtin packages to install, update, clean, and snapshot plugins."
+            "description": "Module of `mini.nvim` for managing other plugins. Uses Git and built-in packages to install, update, clean, and snapshot plugins."
         }
     ],
-    "(requires Neovim 0.5)": [
+    "LSP": [
         {
             "name": "neovim/nvim-lspconfig",
             "url": "https://github.com/neovim/nvim-lspconfig",
@@ -302,17 +50,17 @@
         {
             "name": "nvim-lua/lsp-status.nvim",
             "url": "https://github.com/nvim-lua/lsp-status.nvim",
-            "description": "This is a plugin/library for generating statusline components from the builtin LSP client."
+            "description": "This is a plugin/library for generating statusline components from the built-in LSP client."
         },
         {
             "name": "RishabhRD/nvim-lsputils",
             "url": "https://github.com/RishabhRD/nvim-lsputils",
-            "description": "Better defaults for nvimlsp actions."
+            "description": "Better defaults for nvim-lsp actions."
         },
         {
             "name": "nvimdev/lspsaga.nvim",
             "url": "https://github.com/nvimdev/lspsaga.nvim",
-            "description": "A lightweight LSP plugin based on Neovim's builtin LSP with a highly performant UI."
+            "description": "A light-weight LSP plugin based on Neovim's built-in LSP with a highly performant UI."
         },
         {
             "name": "kosayoda/nvim-lightbulb",
@@ -327,7 +75,7 @@
         {
             "name": "onsails/lspkind.nvim",
             "url": "https://github.com/onsails/lspkind.nvim",
-            "description": "The plugin adds vscodelike icons to Neovim LSP completions."
+            "description": "The plugin adds vscode-like icons to Neovim LSP completions."
         },
         {
             "name": "ojroques/nvim-lspfuzzy",
@@ -347,7 +95,7 @@
         {
             "name": "smjonas/inc-rename.nvim",
             "url": "https://github.com/smjonas/inc-rename.nvim",
-            "description": "Provides an incremental LSP rename command based on Neovim's commandpreview feature."
+            "description": "Provides an incremental LSP rename command based on Neovim's command-preview feature."
         },
         {
             "name": "rmagatti/goto-preview",
@@ -377,7 +125,7 @@
         {
             "name": "hedyhli/outline.nvim",
             "url": "https://github.com/hedyhli/outline.nvim",
-            "description": "A significantly enhanced and refactored fork of `symbolsoutline.nvim`."
+            "description": "A significantly enhanced and refactored fork of `symbols-outline.nvim`."
         },
         {
             "name": "stevearc/aerial.nvim",
@@ -412,12 +160,12 @@
         {
             "name": "mfussenegger/nvim-lint",
             "url": "https://github.com/mfussenegger/nvim-lint",
-            "description": "An asynchronous linter plugin, complementary to the builtin Language Server Protocol support."
+            "description": "An asynchronous linter plugin, complementary to the built-in Language Server Protocol support."
         },
         {
             "name": "b0o/SchemaStore.nvim",
             "url": "https://github.com/b0o/SchemaStore.nvim",
-            "description": "Provide access to the [SchemaStore"
+            "description": "Provide access to the [SchemaStore](https://github.com/SchemaStore/schemastore) catalog."
         },
         {
             "name": "ldelossa/litee.nvim",
@@ -437,7 +185,7 @@
         {
             "name": "junnplus/lsp-setup.nvim",
             "url": "https://github.com/junnplus/lsp-setup.nvim",
-            "description": "A simple wrapper for nvimlspconfig and nvimlspinstaller to easily setup LSP servers."
+            "description": "A simple wrapper for nvim-lspconfig and nvim-lsp-installer to easily setup LSP servers."
         },
         {
             "name": "amrbashir/nvim-docs-view",
@@ -452,22 +200,22 @@
         {
             "name": "mfussenegger/nvim-jdtls",
             "url": "https://github.com/mfussenegger/nvim-jdtls",
-            "description": "Extensions for the builtin LSP support for eclipse.jdt.ls."
+            "description": "Extensions for the built-in LSP support for eclipse.jdt.ls."
         },
         {
             "name": "Kasama/nvim-custom-diagnostic-highlight",
             "url": "https://github.com/Kasama/nvim-custom-diagnostic-highlight",
-            "description": "Inline diagnostics popuphighlight much like cocnvim but based on `vim.diagnostic`."
+            "description": "Inline diagnostics popup-highlight much like coc-nvim but based on `vim.diagnostic`."
         },
         {
             "name": "mrcjkb/haskell-tools.nvim",
             "url": "https://github.com/mrcjkb/haskell-tools.nvim",
-            "description": "Seamless integration of Neovim with Haskell development tools like haskelllanguageserver and Hoogle."
+            "description": "Seamless integration of Neovim with Haskell development tools like haskell-language-server and Hoogle."
         },
         {
             "name": "ranjithshegde/ccls.nvim",
             "url": "https://github.com/ranjithshegde/ccls.nvim",
-            "description": "Use offspec extensions of ccls LSP and browse AST."
+            "description": "Use off-spec extensions of ccls LSP and browse AST."
         },
         {
             "name": "idanarye/nvim-buffls",
@@ -512,12 +260,12 @@
         {
             "name": "creativenull/efmls-configs-nvim",
             "url": "https://github.com/creativenull/efmls-configs-nvim",
-            "description": "An unofficial collection of linters and formatters configured for efmlangserver to work with builtin LSP."
+            "description": "An unofficial collection of linters and formatters configured for efm-langserver to work with builtin LSP."
         },
         {
             "name": "creativenull/diagnosticls-configs-nvim",
             "url": "https://github.com/creativenull/diagnosticls-configs-nvim",
-            "description": "An unofficial collection of linters and formatters configured for diagnosticlanguageserver to work with builtin LSP."
+            "description": "An unofficial collection of linters and formatters configured for diagnostic-languageserver to work with builtin LSP."
         },
         {
             "name": "hinell/lsp-timeout.nvim",
@@ -527,27 +275,27 @@
         {
             "name": "nvimtools/none-ls.nvim",
             "url": "https://github.com/nvimtools/none-ls.nvim",
-            "description": "Nullls.nvim reloaded / Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua."
+            "description": "Null-ls.nvim reloaded / Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua."
         },
         {
             "name": "zeioth/none-ls-autoload.nvim",
             "url": "https://github.com/zeioth/none-ls-autoload.nvim",
-            "description": "Autoload/Autounload nonels sources installed with mason. It supports builtin sources and external sources."
+            "description": "Auto-load/Auto-unload none-ls sources installed with mason. It supports builtin sources and external sources."
         },
         {
             "name": "vxpm/ferris.nvim",
             "url": "https://github.com/vxpm/ferris.nvim",
-            "description": "Interact with RustAnalyzer's LSP extensions."
+            "description": "Interact with Rust-Analyzer's LSP extensions."
         },
         {
             "name": "mrcjkb/rustaceanvim",
             "url": "https://github.com/mrcjkb/rustaceanvim",
-            "description": "A heavily modified fork of rusttools.nvim that does not require a `setup` call and does not depend on nvimlspconfig."
+            "description": "A heavily modified fork of rust-tools.nvim that does not require a `setup` call and does not depend on nvim-lspconfig."
         },
         {
             "name": "soulis-1256/eagle.nvim",
             "url": "https://github.com/soulis-1256/eagle.nvim",
-            "description": "Mousehover LSP hints."
+            "description": "Mouse-hover LSP hints."
         },
         {
             "name": "stevanmilic/nvim-lspimport",
@@ -557,17 +305,17 @@
         {
             "name": "jmbuhr/otter.nvim",
             "url": "https://github.com/jmbuhr/otter.nvim",
-            "description": "Provides LSP features and a nvimcmp completion source for languages embedded in other documents."
+            "description": "Provides LSP features and a nvim-cmp completion source for languages embedded in other documents."
         },
         {
             "name": "lopi-py/luau-lsp.nvim",
             "url": "https://github.com/lopi-py/luau-lsp.nvim",
-            "description": "A luaulsp extension to improve your experience."
+            "description": "A luau-lsp extension to improve your experience."
         },
         {
             "name": "LukasPietzschmann/boo.nvim",
             "url": "https://github.com/LukasPietzschmann/boo.nvim",
-            "description": "Quickly popup some LSPpowered information of the thing your cursor is on."
+            "description": "Quickly pop-up some LSP-powered information of the thing your cursor is on."
         },
         {
             "name": "zeioth/garbage-day.nvim",
@@ -577,7 +325,7 @@
         {
             "name": "luckasRanarison/clear-action.nvim",
             "url": "https://github.com/luckasRanarison/clear-action.nvim",
-            "description": "Enhances LSP code actions with fully customizable signs, personalized actions, and serverspecific mappings, making code actions more predictable."
+            "description": "Enhances LSP code actions with fully customizable signs, personalized actions, and server-specific mappings, making code actions more predictable."
         },
         {
             "name": "rachartier/tiny-inline-diagnostic.nvim",
@@ -593,9 +341,12 @@
             "name": "rachartier/tiny-code-action.nvim",
             "url": "https://github.com/rachartier/tiny-code-action.nvim",
             "description": "Provides a simple way to run and visualize code actions with Telescope."
-        }
-    ],
-    "LSP Installer": [
+        },
+        {
+            "name": "mawkler/refjump.nvim",
+            "url": "https://github.com/mawkler/refjump.nvim",
+            "description": "Jump to next/previous LSP reference for item under cursor with `]r`/`[r`."
+        },
         {
             "name": "anott03/nvim-lspinstall",
             "url": "https://github.com/anott03/nvim-lspinstall",
@@ -604,24 +355,22 @@
         {
             "name": "alexaandru/nvim-lspupdate",
             "url": "https://github.com/alexaandru/nvim-lspupdate",
-            "description": "Updates installed (or auto installs if missing"
+            "description": "Updates installed (or auto installs if missing) LSP servers."
         },
         {
             "name": "williamboman/mason.nvim",
             "url": "https://github.com/williamboman/mason.nvim",
             "description": "Portable package manager that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters."
-        }
-    ],
-    "Diagnostics": [
+        },
         {
             "name": "sontungexpt/better-diagnostic-virtual-text",
             "url": "https://github.com/sontungexpt/better-diagnostic-virtual-text",
-            "description": "Enhances the display of virtual text for diagnostics. This function aims to provide a more userfriendly and informative presentation of diagnostic messages directly within the editor."
+            "description": "Enhances the display of virtual text for diagnostics. This function aims to provide a more user-friendly and informative presentation of diagnostic messages directly within the editor."
         },
         {
             "name": "andrewferrier/textobj-diagnostic",
             "url": "https://github.com/andrewferrier/textobj-diagnostic.nvim",
-            "description": "Text object for diagnostics (such as those generated by LSP servers"
+            "description": "Text object for diagnostics (such as those generated by LSP servers)."
         },
         {
             "name": "~whynothugo/lsp_lines.nvim",
@@ -651,7 +400,7 @@
         {
             "name": "chrisgrieser/nvim-rulebook",
             "url": "https://github.com/chrisgrieser/nvim-rulebook",
-            "description": "Add inlinecomments to ignore rules, or lookup rule documentation online."
+            "description": "Add inline-comments to ignore rules, or lookup rule documentation online."
         },
         {
             "name": "artemave/workspace-diagnostics.nvim",
@@ -668,39 +417,39 @@
         {
             "name": "hrsh7th/nvim-cmp",
             "url": "https://github.com/hrsh7th/nvim-cmp",
-            "description": "A completion plugin written in Lua. New version of nvimcompe."
+            "description": "A completion plugin written in Lua. New version of nvim-compe."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.completion",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-completion.md",
-            "description": "Module of `mini.nvim` for asynchronous twostage completion. Supports showing completion item info and independent function signature."
+            "description": "Module of `mini.nvim` for asynchronous two-stage completion. Supports showing completion item info and independent function signature."
         },
         {
             "name": "deathbeam/autocomplete.nvim",
             "url": "https://github.com/deathbeam/autocomplete.nvim",
-            "description": "Very simple and minimal autocompletion for cmdline and buffer using LSP and Treesitter with signature help."
+            "description": "Very simple and minimal autocompletion for cmdline and buffer using LSP and Tree-sitter with signature help."
         },
         {
             "name": "vigoux/complementree.nvim",
             "url": "https://github.com/vigoux/complementree.nvim",
-            "description": "Light and synchronous completion plugin based on treesitter and with a functionalprogramming interface."
+            "description": "Light and synchronous completion plugin based on tree-sitter and with a functional-programming interface."
         },
         {
             "name": "nvimdev/epo.nvim",
             "url": "https://github.com/nvimdev/epo.nvim",
-            "description": "Blazingly fast, minimal LSP autocompletion and snippet engine."
+            "description": "Blazingly fast, minimal LSP auto-completion and snippet engine."
         },
         {
             "name": "zbirenbaum/copilot.lua",
             "url": "https://github.com/zbirenbaum/copilot.lua",
-            "description": "Fully featured Lua replacement for [GitHub/copilot.vim"
+            "description": "Fully featured Lua replacement for [GitHub/copilot.vim](https://github.com/github/copilot.vim)."
         }
     ],
     "AI": [
         {
             "name": "Aaronik/GPTModels.nvim",
             "url": "https://github.com/Aaronik/GPTModels.nvim",
-            "description": "GPTModels  a stable, clean, multi model, window based LLM AI tool."
+            "description": "GPTModels - a stable, clean, multi model, window based LLM AI tool."
         },
         {
             "name": "Robitx/gp.nvim",
@@ -720,12 +469,12 @@
         {
             "name": "CamdenClark/flyboy",
             "url": "https://github.com/CamdenClark/flyboy",
-            "description": "Simple interaction with ChatGPT in a markdown buffer. Supports GPT4 and Azure OpenAI."
+            "description": "Simple interaction with ChatGPT in a markdown buffer. Supports GPT-4 and Azure OpenAI."
         },
         {
             "name": "gsuuon/model.nvim",
             "url": "https://github.com/gsuuon/model.nvim",
-            "description": "Integrate LLMs via a prompt builder interface. Multiproviders including OpenAI (+ compatibles"
+            "description": "Integrate LLMs via a prompt builder interface. Multi-providers including OpenAI (+ compatibles), PaLM, HuggingFace and local engines like llamacpp."
         },
         {
             "name": "dense-analysis/neural",
@@ -735,12 +484,12 @@
         {
             "name": "jpmcb/nvim-llama",
             "url": "https://github.com/jpmcb/nvim-llama",
-            "description": "LLM (Llama 2 and llama.cpp"
+            "description": "LLM (Llama 2 and llama.cpp) wrappers."
         },
         {
             "name": "David-Kunz/gen.nvim",
             "url": "https://github.com/David-Kunz/gen.nvim",
-            "description": "Generate text using LLMs (via Ollama"
+            "description": "Generate text using LLMs (via Ollama) with customizable prompts."
         },
         {
             "name": "kiddos/gemini.nvim",
@@ -753,29 +502,29 @@
             "description": "Copilot Chat like experience, complete with inline assistant. Supports Anthropic, Gemini, Ollama and OpenAI."
         },
         {
-            "name": "simplegpt.nvim",
+            "name": "you-n-g/simplegpt.nvim",
             "url": "https://github.com/you-n-g/simplegpt.nvim",
             "description": "Provide a simple yet flexible way to construct and send questions to ChatGPT."
         },
         {
             "name": "Exafunction/codeium.nvim",
             "url": "https://github.com/Exafunction/codeium.nvim",
-            "description": "Free, ultrafast Copilot alternative. Supports LSP and Treesitter."
+            "description": "Free, ultrafast Copilot alternative. Supports LSP and Tree-sitter."
         },
         {
             "name": "CopilotC-Nvim/CopilotChat.nvim",
             "url": "https://github.com/CopilotC-Nvim/CopilotChat.nvim",
-            "description": "A chat interface for GitHub Copilot that allows you to directly ask and receive answers to codingrelated questions."
+            "description": "A chat interface for GitHub Copilot that allows you to directly ask and receive answers to coding-related questions."
         },
         {
             "name": "tzachar/cmp-ai",
             "url": "https://github.com/tzachar/cmp-ai",
-            "description": "This is a general purpose AI source for nvimcmp, easily adapted to any restapi supporting remote code completion."
+            "description": "This is a general purpose AI source for nvim-cmp, easily adapted to any restapi supporting remote code completion."
         },
         {
             "name": "milanglacier/minuet-ai.nvim",
             "url": "https://github.com/milanglacier/minuet-ai.nvim",
-            "description": "Minuet offers code completion from popular LLMs including OpenAI (compatible"
+            "description": "Minuet offers code completion from popular LLMs including OpenAI (compatible), Gemini, Claude, and more providers. Dance with intelligence in your code."
         },
         {
             "name": "yetone/avante.nvim",
@@ -785,14 +534,19 @@
         {
             "name": "StubbornVegeta/llm.nvim",
             "url": "https://github.com/StubbornVegeta/llm.nvim",
-            "description": "Free large language model (LLM"
+            "description": "Free large language model (LLM) support, provides commands to interact with LLM."
+        },
+        {
+            "name": "3v0k4/exit.nvim",
+            "url": "https://github.com/3v0k4/exit.nvim",
+            "description": "Prompt LLMs (large language models) to write Vim commands."
         }
     ],
     "Programming Languages Support": [
         {
             "name": "Julian/lean.nvim",
             "url": "https://github.com/Julian/lean.nvim",
-            "description": "Neovim support for the [Lean Theorem Prover"
+            "description": "Neovim support for the [Lean Theorem Prover](https://leanprover.github.io/)."
         },
         {
             "name": "akinsho/flutter-tools.nvim",
@@ -802,7 +556,7 @@
         {
             "name": "brendalf/mix.nvim",
             "url": "https://github.com/brendalf/mix.nvim",
-            "description": "Mix (from Elixir"
+            "description": "Mix (from Elixir) wrapper plugin."
         },
         {
             "name": "AckslD/swenv.nvim",
@@ -812,7 +566,7 @@
         {
             "name": "roobert/f-string-toggle.nvim",
             "url": "https://github.com/roobert/f-string-toggle.nvim",
-            "description": "Toggle python fstrings."
+            "description": "Toggle python f-strings."
         },
         {
             "name": "gennaro-tedesco/nvim-jqx",
@@ -827,17 +581,17 @@
         {
             "name": "dmmulroy/tsc.nvim",
             "url": "https://github.com/dmmulroy/tsc.nvim",
-            "description": "Asynchronous projectwide TypeScript typechecking using the TypeScript compiler (TSC"
+            "description": "Asynchronous project-wide TypeScript type-checking using the TypeScript compiler (TSC) with results loaded into a quickfix list."
         },
         {
             "name": "dmmulroy/ts-error-translator.nvim",
             "url": "https://github.com/dmmulroy/ts-error-translator.nvim",
-            "description": "A port of Matt Pocock's tserrortranslator for VSCode for turning messy and confusing TypeScript errors into plain English."
+            "description": "A port of Matt Pocock's ts-error-translator for VSCode for turning messy and confusing TypeScript errors into plain English."
         },
         {
             "name": "chuwy/ucm.nvim",
             "url": "https://github.com/chuwy/ucm.nvim",
-            "description": "Navigating [Unison"
+            "description": "Navigating [Unison](https://unison-lang.org/) projects."
         },
         {
             "name": "niuiic/typst-preview.nvim",
@@ -847,7 +601,7 @@
         {
             "name": "simaxme/java.nvim",
             "url": "https://github.com/simaxme/java.nvim",
-            "description": "Some utilities regarding Java development (e.g. updating symbol usages when renaming or moving a file in nvimtree"
+            "description": "Some utilities regarding Java development (e.g. updating symbol usages when renaming or moving a file in nvim-tree)."
         },
         {
             "name": "chomosuke/typst-preview.nvim",
@@ -857,7 +611,7 @@
         {
             "name": "quarto-dev/quarto-nvim",
             "url": "https://github.com/quarto-dev/quarto-nvim",
-            "description": "Tools for working with [Quarto"
+            "description": "Tools for working with [Quarto](https://quarto.org/) documents."
         },
         {
             "name": "iabdelkareem/csharp.nvim",
@@ -867,15 +621,13 @@
         {
             "name": "jim-at-jibba/micropython.nvim",
             "url": "https://github.com/jim-at-jibba/micropython.nvim",
-            "description": "Enhances the development experience for developers using Micropython for IoT and maker projects."
+            "description": "Enhances the development experience for developers using Micro-python for IoT and maker projects."
         },
         {
             "name": "neolooong/whichpy.nvim",
             "url": "https://github.com/neolooong/whichpy.nvim",
             "description": "Switch Python interpreter without restarting LSP."
-        }
-    ],
-    "Golang": [
+        },
         {
             "name": "ray-x/go.nvim",
             "url": "https://github.com/ray-x/go.nvim",
@@ -914,15 +666,13 @@
         {
             "name": "yanskun/gotests.nvim",
             "url": "https://github.com/yanskun/gotests.nvim",
-            "description": "Make Go tests easy with [gotests"
+            "description": "Make Go tests easy with [gotests](https://github.com/cweill/gotests)."
         },
         {
             "name": "maxandron/goplements.nvim",
             "url": "https://github.com/maxandron/goplements.nvim",
             "description": "Visualize Go struct and interface implementations."
-        }
-    ],
-    "YAML": [
+        },
         {
             "name": "someone-stole-my-name/yaml-companion.nvim",
             "url": "https://github.com/someone-stole-my-name/yaml-companion.nvim",
@@ -932,9 +682,7 @@
             "name": "cuducos/yaml.nvim",
             "url": "https://github.com/cuducos/yaml.nvim",
             "description": "Utils to work with YAML files."
-        }
-    ],
-    "Web Development": [
+        },
         {
             "name": "rest-nvim/rest.nvim",
             "url": "https://github.com/rest-nvim/rest.nvim",
@@ -943,7 +691,7 @@
         {
             "name": "mistweaverco/kulala.nvim",
             "url": "https://github.com/mistweaverco/kulala.nvim",
-            "description": "A minimal HTTPclient interface."
+            "description": "A minimal HTTP-client interface."
         },
         {
             "name": "ray-x/web-tools.nvim",
@@ -953,7 +701,7 @@
         {
             "name": "roobert/tailwindcss-colorizer-cmp.nvim",
             "url": "https://github.com/roobert/tailwindcss-colorizer-cmp.nvim",
-            "description": "Add vscodestyle TailwindCSS completion to nvimcmp."
+            "description": "Add vscode-style TailwindCSS completion to nvim-cmp."
         },
         {
             "name": "luckasRanarison/tailwind-tools.nvim",
@@ -974,9 +722,7 @@
             "name": "farias-hecdin/CSSVarHighlight",
             "url": "https://github.com/farias-hecdin/CSSVarHighlight",
             "description": "Quickly highlight the color you defined in your CSS variables with the help of `mini.hipatterns`."
-        }
-    ],
-    "Markdown and LaTeX": [
+        },
         {
             "name": "ellisonleao/glow.nvim",
             "url": "https://github.com/ellisonleao/glow.nvim",
@@ -995,7 +741,7 @@
         {
             "name": "davidgranstrom/nvim-markdown-preview",
             "url": "https://github.com/davidgranstrom/nvim-markdown-preview",
-            "description": "Markdown preview in the browser using pandoc and liveserver through Neovim's jobcontrol API."
+            "description": "Markdown preview in the browser using pandoc and live-server through Neovim's job-control API."
         },
         {
             "name": "jghauser/auto-pandoc.nvim",
@@ -1020,7 +766,7 @@
         {
             "name": "frabjous/knap",
             "url": "https://github.com/frabjous/knap",
-            "description": "Plugin for creating automatic updatingasyoutype previews for markdown, LaTeX and other documents."
+            "description": "Plugin for creating automatic updating-as-you-type previews for markdown, LaTeX and other documents."
         },
         {
             "name": "jbyuki/carrot.nvim",
@@ -1030,7 +776,7 @@
         {
             "name": "AckslD/nvim-FeMaco.lua",
             "url": "https://github.com/AckslD/nvim-FeMaco.lua",
-            "description": "Catalyze your Fenced Markdown Codeblock editing."
+            "description": "Catalyze your Fenced Markdown Code-block editing."
         },
         {
             "name": "Nedra1998/nvim-mdlink",
@@ -1050,12 +796,12 @@
         {
             "name": "yaocccc/nvim-hl-mdcodeblock.lua",
             "url": "https://github.com/yaocccc/nvim-hl-mdcodeblock.lua",
-            "description": "Highlight markdown codeblock using Treesitter."
+            "description": "Highlight markdown codeblock using Tree-sitter."
         },
         {
             "name": "kiran94/edit-markdown-table.nvim",
             "url": "https://github.com/kiran94/edit-markdown-table.nvim",
-            "description": "Edit Markdown Tables using Treesitter."
+            "description": "Edit Markdown Tables using Tree-sitter."
         },
         {
             "name": "richardbizik/nvim-toc",
@@ -1070,12 +816,12 @@
         {
             "name": "tadmccorkle/markdown.nvim",
             "url": "https://github.com/tadmccorkle/markdown.nvim",
-            "description": "Configurable tools for markdown files, including inlinestyle, link, and navigation keymaps, table of contents, improved list editing, and more."
+            "description": "Configurable tools for markdown files, including inline-style, link, and navigation keymaps, table of contents, improved list editing, and more."
         },
         {
             "name": "mpas/marp-nvim",
             "url": "https://github.com/mpas/marp-nvim",
-            "description": "Present using markdown with [Marp"
+            "description": "Present using markdown with [Marp](https://marp.app/)."
         },
         {
             "name": "Myzel394/easytables.nvim",
@@ -1105,10 +851,8 @@
         {
             "name": "Kicamon/markdown-table-mode.nvim",
             "url": "https://github.com/Kicamon/markdown-table-mode.nvim",
-            "description": "Markdown format plugin like vimtablemode but write in Lua."
-        }
-    ],
-    "PHP": [
+            "description": "Markdown format plugin like vim-table-mode but write in Lua."
+        },
         {
             "name": "gbprod/phpactor.nvim",
             "url": "https://github.com/gbprod/phpactor.nvim",
@@ -1146,7 +890,7 @@
         {
             "name": "nvim-treesitter/nvim-treesitter-textobjects",
             "url": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects",
-            "description": "Create your own textobjects using treesitter queries."
+            "description": "Create your own textobjects using tree-sitter queries."
         },
         {
             "name": "RRethy/nvim-treesitter-textsubjects",
@@ -1161,12 +905,12 @@
         {
             "name": "roobert/surround-ui.nvim",
             "url": "https://github.com/roobert/surround-ui.nvim",
-            "description": "Helper or training aid for kylechui/nvimsurround."
+            "description": "Helper or training aid for kylechui/nvim-surround."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.surround",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-surround.md",
-            "description": "Module of `mini.nvim` for working with text surroundings (add, delete, replace, find, highlight"
+            "description": "Module of `mini.nvim` for working with text surroundings (add, delete, replace, find, highlight). Supports dot-repeat, different search methods, \"last\"/\"next\" extended mappings, tree-sitter integration, and more."
         },
         {
             "name": "m-demare/hlargs.nvim",
@@ -1181,12 +925,12 @@
         {
             "name": "desdic/agrolens.nvim",
             "url": "https://github.com/desdic/agrolens.nvim",
-            "description": "Navigate via Treesitter nodes using Telescope."
+            "description": "Navigate via Tree-sitter nodes using Telescope."
         },
         {
             "name": "IndianBoy42/tree-sitter-just",
             "url": "https://github.com/IndianBoy42/tree-sitter-just",
-            "description": "Treesitter grammar for [Justfiles"
+            "description": "Treesitter grammar for [Justfiles](https://github.com/casey/just)."
         }
     ],
     "Snippet": [
@@ -1208,7 +952,7 @@
         {
             "name": "dcampos/nvim-snippy",
             "url": "https://github.com/dcampos/nvim-snippy",
-            "description": "Snippet plugin written in Lua with support for [vimsnippets"
+            "description": "Snippet plugin written in Lua with support for [vim-snippets](https://github.com/honza/vim-snippets)."
         },
         {
             "name": "ellisonleao/carbon-now.nvim",
@@ -1218,12 +962,12 @@
         {
             "name": "TobinPalmer/rayso.nvim",
             "url": "https://github.com/TobinPalmer/rayso.nvim",
-            "description": "Create code snippets in Neovim using [ray.so"
+            "description": "Create code snippets in Neovim using [ray.so](https://ray.so)."
         },
         {
             "name": "mrcjkb/haskell-snippets.nvim",
             "url": "https://github.com/mrcjkb/haskell-snippets.nvim",
-            "description": "Haskell snippets for LuaSnip, powered by Treesitter and LSP."
+            "description": "Haskell snippets for LuaSnip, powered by Tree-sitter and LSP."
         },
         {
             "name": "rafamadriz/friendly-snippets",
@@ -1255,7 +999,7 @@
         {
             "name": "tversteeg/registers.nvim",
             "url": "https://github.com/tversteeg/registers.nvim",
-            "description": "Nonobtrusive minimal preview of Vim registers."
+            "description": "Non-obtrusive minimal preview of Vim registers."
         },
         {
             "name": "acksld/nvim-neoclip.lua",
@@ -1337,7 +1081,7 @@
         {
             "name": "tristone13th/lspmark.nvim",
             "url": "https://github.com/tristone13th/lspmark.nvim",
-            "description": "Sane projectwise bookmarks with persistent storage based on LSP."
+            "description": "Sane project-wise bookmarks with persistent storage based on LSP."
         }
     ],
     "Search": [
@@ -1359,7 +1103,7 @@
         {
             "name": "ray-x/sad.nvim",
             "url": "https://github.com/ray-x/sad.nvim",
-            "description": "Space Age seD in neovim. Batch file edit tool, a wrapper for [sad"
+            "description": "Space Age seD in neovim. Batch file edit tool, a wrapper for [sad](https://github.com/ms-jpq/sad)"
         },
         {
             "name": "s1n7ax/nvim-search-and-replace",
@@ -1414,7 +1158,7 @@
         {
             "name": "MagicDuck/grug-far.nvim",
             "url": "https://github.com/MagicDuck/grug-far.nvim",
-            "description": "Bufferbased live search and replace with full power of `rg` flags. Grug like!"
+            "description": "Buffer-based live search and replace with full power of `rg` flags. Grug like!"
         },
         {
             "name": "chrisgrieser/nvim-rip-substitute",
@@ -1426,12 +1170,12 @@
         {
             "name": "nvim-telescope/telescope.nvim",
             "url": "https://github.com/nvim-telescope/telescope.nvim",
-            "description": "Telescope.nvim is a highly [extendable"
+            "description": "Telescope.nvim is a highly [extendable](https://github.com/nvim-telescope/telescope.nvim/wiki/Extensions) fuzzy finder over lists. Built on the latest awesome features from Neovim core. Telescope is centered around modularity, allowing for easy customization."
         },
         {
             "name": "vijaymarupudi/nvim-fzf",
             "url": "https://github.com/vijaymarupudi/nvim-fzf",
-            "description": "A Lua API for using FZF (Neovim >= 0.5"
+            "description": "A Lua API for using FZF (Neovim >= 0.5). Allows for full asynchronicity for UI speed and usability."
         },
         {
             "name": "camspiers/snap",
@@ -1441,15 +1185,15 @@
         {
             "name": "ibhagwan/fzf-lua",
             "url": "https://github.com/ibhagwan/fzf-lua",
-            "description": "The Lua version of `fzf.vim`, highperformance and fully async, supports `nvimwebdevicons`, git indicators, LSP, quickfix/location lists and more. Also supports [`skim`"
+            "description": "The Lua version of `fzf.vim`, high-performance and fully async, supports `nvim-web-devicons`, git indicators, LSP, quickfix/location lists and more. Also supports [`skim`](https://github.com/lotabout/skim) as its fzf binary."
         },
         {
             "name": "jvgrootveld/telescope-zoxide",
             "url": "https://github.com/jvgrootveld/telescope-zoxide",
-            "description": "Telescope integration for [zoxide"
+            "description": "Telescope integration for [zoxide](https://github.com/ajeetdsouza/zoxide), a smart directory picker that tracks your usage."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.fuzzy",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-fuzzy.md",
             "description": "Module of `mini.nvim` with functions to perform fuzzy matching of one string to others along with fast Telescope sorter."
         },
@@ -1464,12 +1208,12 @@
             "description": "A fuzzy finder that updates on every keystroke."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.pick",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-pick.md",
-            "description": "Module of `mini.nvim` with general purpose interactive nonblocking picker that has one window design, toggleable preview, flexible and fast default match, and much more."
+            "description": "Module of `mini.nvim` with general purpose interactive non-blocking picker that has one window design, toggleable preview, flexible and fast default match, and much more."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.extra",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-extra.md",
             "description": "Module of `mini.nvim` with extra functionality for its modules. Contains 20+ 'mini.pick' pickers, 'mini.ai' textobjects, and more."
         },
@@ -1488,7 +1232,7 @@
         {
             "name": "luukvbaal/nnn.nvim",
             "url": "https://github.com/luukvbaal/nnn.nvim",
-            "description": "File explorer powered by [nnn"
+            "description": "File explorer powered by [nnn](https://github.com/jarun/nnn) and Lua."
         },
         {
             "name": "tamago324/lir.nvim",
@@ -1518,17 +1262,17 @@
         {
             "name": "is0n/fm-nvim",
             "url": "https://github.com/is0n/fm-nvim",
-            "description": "Neovim plugin that lets you use your favorite terminal file managers (and fuzzy finders"
+            "description": "Neovim plugin that lets you use your favorite terminal file managers (and fuzzy finders)."
         },
         {
             "name": "rolv-apneseth/tfm.nvim",
             "url": "https://github.com/Rolv-Apneseth/tfm.nvim",
-            "description": "Similar to `fmnvim`, this provides Neovim integration for several popular terminal file managers (including [yazi"
+            "description": "Similar to `fm-nvim`, this provides Neovim integration for several popular terminal file managers (including [yazi](https://github.com/sxyazi/yazi))."
         },
         {
             "name": "nvim-neo-tree/neo-tree.nvim",
             "url": "https://github.com/nvim-neo-tree/neo-tree.nvim",
-            "description": "Neotree is a Neovim plugin to browse the file system and other tree like structures in whatever style suits you, including sidebars, floating windows, netrw split style, or all of them at once."
+            "description": "Neo-tree is a Neovim plugin to browse the file system and other tree like structures in whatever style suits you, including sidebars, floating windows, netrw split style, or all of them at once."
         },
         {
             "name": "elihunter173/dirbuf.nvim",
@@ -1548,7 +1292,7 @@
         {
             "name": "dinhhuy258/sfm.nvim",
             "url": "https://github.com/dinhhuy258/sfm.nvim",
-            "description": "An alternative to Nvimtree designed to be extensible and minimalist."
+            "description": "An alternative to Nvim-tree designed to be extensible and minimalist."
         },
         {
             "name": "kiran94/s3edit.nvim",
@@ -1563,7 +1307,7 @@
         {
             "name": "kelly-lin/ranger.nvim",
             "url": "https://github.com/kelly-lin/ranger.nvim",
-            "description": "[Ranger"
+            "description": "[Ranger](https://github.com/ranger/ranger) integration for neovim."
         },
         {
             "name": "simonmclean/triptych.nvim",
@@ -1571,7 +1315,7 @@
             "description": "A directory browser inspired by Ranger."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.files",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-files.md",
             "description": "Module of `mini.nvim` providing file explorer with column view capable of manipulating file system by editing text. Can create/delete/rename/copy/move files/directories inside and across directories."
         },
@@ -1581,16 +1325,16 @@
             "description": "Add icons and custom keybindings to netrw."
         },
         {
-            "name": "neotree-file-nesting-config",
+            "name": "saifulapm/neotree-file-nesting-config",
             "url": "https://github.com/saifulapm/neotree-file-nesting-config",
-            "description": "Predefined file nesting rules for `neotree.nvim`."
+            "description": "Pre-defined file nesting rules for `neo-tree.nvim`."
         }
     ],
     "Project": [
         {
             "name": "pluffie/neoproj",
             "url": "https://github.com/pluffie/neoproj",
-            "description": "Small yet powerful project (and session"
+            "description": "Small yet powerful project (and session) manager."
         },
         {
             "name": "Abstract-IDE/penvim",
@@ -1615,7 +1359,7 @@
         {
             "name": "cljoly/telescope-repo.nvim",
             "url": "https://cj.rs/telescope-repo-nvim/",
-            "description": "Telescope picker to jump to any repository (git or other"
+            "description": "Telescope picker to jump to any repository (git or other) on the file system."
         },
         {
             "name": "otavioschwanck/telescope-alternate.nvim",
@@ -1635,12 +1379,12 @@
         {
             "name": "nyngwang/suave.lua",
             "url": "https://github.com/nyngwang/suave.lua",
-            "description": "Multitabs project session automation."
+            "description": "Multi-tabs project session automation."
         },
         {
             "name": "desdic/telescope-rooter.nvim",
             "url": "https://github.com/desdic/telescope-rooter.nvim",
-            "description": "Makes sure to always start telescope (and only telescope"
+            "description": "Makes sure to always start telescope (and only telescope) from the project/root directory."
         },
         {
             "name": "SalOrak/whaler.nvim",
@@ -1648,7 +1392,7 @@
             "description": "Telescope extension to move between directories blazingly fast."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.visits",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-visits.md",
             "description": "Module of `mini.nvim` to persistently track and reuse file system visits. Allows listing \"recent\"/\"frequent\"/\"frecent\" visits, adding/removing labels to visits and other data."
         },
@@ -1662,12 +1406,12 @@
         {
             "name": "NvChad/nvim-colorizer.lua",
             "url": "https://github.com/NvChad/nvim-colorizer.lua",
-            "description": "A highperformance color highlighter which has no external dependencies!."
+            "description": "A high-performance color highlighter which has no external dependencies!."
         },
         {
             "name": "winston0410/range-highlight.nvim",
             "url": "https://github.com/winston0410/range-highlight.nvim",
-            "description": "An extremely lightweight plugin (~ 120loc"
+            "description": "An extremely lightweight plugin (~ 120loc) that highlights ranges you have entered in commandline."
         },
         {
             "name": "xiyaowong/transparent.nvim",
@@ -1707,7 +1451,7 @@
         {
             "name": "nvim-colortils/colortils.nvim",
             "url": "https://github.com/nvim-colortils/colortils.nvim",
-            "description": "A plugin providing utils to work with colors (picker, conversion"
+            "description": "A plugin providing utils to work with colors (picker, conversion) inside Neovim."
         },
         {
             "name": "Mr-LLLLL/interestingwords.nvim",
@@ -1715,7 +1459,7 @@
             "description": "Highlight multiple word same time and navigate word under cursor with scrolling smoothly, display search count in virualtext."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.hipatterns",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-hipatterns.md",
             "description": "Module of `mini.nvim` to highlight patterns in text with configurable highlighters. Works asynchronously with configurable debounce delay."
         },
@@ -1727,7 +1471,7 @@
         {
             "name": "rasulomaroff/reactive.nvim",
             "url": "https://github.com/rasulomaroff/reactive.nvim",
-            "description": "Set global and windowspecific highlights or trigger callbacks when modes/operators change or windows are switched."
+            "description": "Set global and window-specific highlights or trigger callbacks when modes/operators change or windows are switched."
         },
         {
             "name": "moyiz/command-and-cursor.nvim",
@@ -1737,10 +1481,10 @@
         {
             "name": "rachartier/tiny-devicons-auto-colors.nvim",
             "url": "https://github.com/rachartier/tiny-devicons-auto-colors.nvim",
-            "description": "Automatically updates nvimwebdevicons colors based on your current colorscheme."
+            "description": "Automatically updates nvim-web-devicons colors based on your current colorscheme."
         }
     ],
-    "Tree-sitter Supported Colorscheme": [
+    "Colorscheme": [
         {
             "name": "sontungexpt/witch",
             "url": "https://github.com/sontungexpt/witch",
@@ -1749,12 +1493,12 @@
         {
             "name": "Abstract-IDE/Abstract-cs",
             "url": "https://github.com/Abstract-IDE/Abstract-cs",
-            "description": "Colorscheme written in Lua, specially made for roshnivim with Treesitter support."
+            "description": "Colorscheme written in Lua, specially made for roshnivim with Tree-sitter support."
         },
         {
             "name": "rafamadriz/neon",
             "url": "https://github.com/rafamadriz/neon",
-            "description": "Customizable colorscheme with excellent italic and bold support, dark and light variants. Made to work and look good with Treesitter."
+            "description": "Customizable colorscheme with excellent italic and bold support, dark and light variants. Made to work and look good with Tree-sitter."
         },
         {
             "name": "tomasiser/vim-code-dark",
@@ -1764,7 +1508,7 @@
         {
             "name": "Mofiqul/vscode.nvim",
             "url": "https://github.com/Mofiqul/vscode.nvim",
-            "description": "A Lua port of vimcodedark colorscheme with vscode light and dark theme."
+            "description": "A Lua port of vim-code-dark colorscheme with vscode light and dark theme."
         },
         {
             "name": "askfiy/visual_studio_code",
@@ -1779,22 +1523,22 @@
         {
             "name": "bluz71/vim-nightfly-colors",
             "url": "https://github.com/bluz71/vim-nightfly-colors",
-            "description": "A dark midnight colorscheme with modern Neovim support including Treesitter."
+            "description": "A dark midnight colorscheme with modern Neovim support including Tree-sitter."
         },
         {
             "name": "bluz71/vim-moonfly-colors",
             "url": "https://github.com/bluz71/vim-moonfly-colors",
-            "description": "A dark charcoal colorscheme with modern Neovim support including Treesitter."
+            "description": "A dark charcoal colorscheme with modern Neovim support including Tree-sitter."
         },
         {
             "name": "ChristianChiarulli/nvcode-color-schemes.vim",
             "url": "https://github.com/ChristianChiarulli/nvcode-color-schemes.vim",
-            "description": "Nvcode, onedark, nord colorschemes with Treesitter support."
+            "description": "Nvcode, onedark, nord colorschemes with Tree-sitter support."
         },
         {
             "name": "folke/tokyonight.nvim",
             "url": "https://github.com/folke/tokyonight.nvim",
-            "description": "A clean, dark and light Neovim theme written in Lua, with support for LSP, Treesitter and lots of plugins."
+            "description": "A clean, dark and light Neovim theme written in Lua, with support for LSP, Tree-sitter and lots of plugins."
         },
         {
             "name": "comfysage/evergarden",
@@ -1824,12 +1568,12 @@
         {
             "name": "nvimdev/zephyr-nvim",
             "url": "https://github.com/nvimdev/zephyr-nvim",
-            "description": "A dark colorscheme with Treesitter support."
+            "description": "A dark colorscheme with Tree-sitter support."
         },
         {
             "name": "rockerBOO/boo-colorscheme-nvim",
             "url": "https://github.com/rockerBOO/boo-colorscheme-nvim",
-            "description": "A colorscheme with handcrafted support for LSP, Treesitter."
+            "description": "A colorscheme with handcrafted support for LSP, Tree-sitter."
         },
         {
             "name": "jim-at-jibba/ariake.nvim",
@@ -1854,7 +1598,7 @@
         {
             "name": "theniceboy/nvim-deus",
             "url": "https://github.com/theniceboy/nvim-deus",
-            "description": "Vimdeus with Treesitter support."
+            "description": "Vim-deus with Tree-sitter support."
         },
         {
             "name": "bkegley/gloombuddy",
@@ -1884,12 +1628,12 @@
         {
             "name": "ray-x/aurora",
             "url": "https://github.com/ray-x/aurora",
-            "description": "A 24bit dark theme with Treesitter and LSP support."
+            "description": "A 24-bit dark theme with Tree-sitter and LSP support."
         },
         {
             "name": "ray-x/starry.nvim",
             "url": "https://github.com/ray-x/starry.nvim",
-            "description": "A collection of modern Neovim colorschemes: material, moonlight, dracula (blood"
+            "description": "A collection of modern Neovim colorschemes: material, moonlight, dracula (blood), monokai, mariana, emerald, earlysummer, middlenight_blue, darksolar."
         },
         {
             "name": "tanvirtin/monokai.nvim",
@@ -1919,7 +1663,7 @@
         {
             "name": "andersevenrud/nordic.nvim",
             "url": "https://github.com/andersevenrud/nordic.nvim",
-            "description": "A nordesque colorscheme."
+            "description": "A nord-esque colorscheme."
         },
         {
             "name": "AlexvZyl/nordic.nvim",
@@ -1944,27 +1688,27 @@
         {
             "name": "ishan9299/nvim-solarized-lua",
             "url": "https://github.com/ishan9299/nvim-solarized-lua",
-            "description": "Solarized colorscheme in Lua (Neovim >= 0.5"
+            "description": "Solarized colorscheme in Lua (Neovim >= 0.5)."
         },
         {
             "name": "jthvai/lavender.nvim",
             "url": "https://codeberg.org/jthvai/lavender.nvim",
-            "description": "Purplehued dark mode colorscheme; a complete rewrite of shaunsingh/moonlight.nvim."
+            "description": "Purple-hued dark mode colorscheme; a complete rewrite of shaunsingh/moonlight.nvim."
         },
         {
             "name": "navarasu/onedark.nvim",
             "url": "https://github.com/navarasu/onedark.nvim",
-            "description": "A One Dark Theme (Neovim >= 0.5"
+            "description": "A One Dark Theme (Neovim >= 0.5) written in Lua based on Atom's One Dark Theme."
         },
         {
             "name": "lourenci/github-colors",
             "url": "https://github.com/lourenci/github-colors",
-            "description": "GitHub colors leveraging Treesitter to get 100% accuracy."
+            "description": "GitHub colors leveraging Tree-sitter to get 100% accuracy."
         },
         {
             "name": "sainnhe/gruvbox-material",
             "url": "https://github.com/sainnhe/gruvbox-material",
-            "description": "Gruvbox modification with softer contrast and Treesitter support."
+            "description": "Gruvbox modification with softer contrast and Tree-sitter support."
         },
         {
             "name": "sainnhe/everforest",
@@ -1979,7 +1723,7 @@
         {
             "name": "NTBBloodbath/doom-one.nvim",
             "url": "https://github.com/NTBBloodbath/doom-one.nvim",
-            "description": "Lua port of doomemacs' doomone."
+            "description": "Lua port of doom-emacs' doom-one."
         },
         {
             "name": "dracula/vim",
@@ -1994,27 +1738,27 @@
         {
             "name": "niyabits/calvera-dark.nvim",
             "url": "https://github.com/niyabits/calvera-dark.nvim",
-            "description": "A port of [VSCode Calvara Dark"
+            "description": "A port of [VSCode Calvara Dark](https://github.com/saurabhdaware/vscode-calvera-dark) Theme to Neovim with Tree-sitter and many other plugins support."
         },
         {
             "name": "nxvu699134/vn-night.nvim",
             "url": "https://github.com/nxvu699134/vn-night.nvim",
-            "description": "A dark Neovim colorscheme written in Lua. Support builtin LSP and Treesitter."
+            "description": "A dark Neovim colorscheme written in Lua. Support built-in LSP and Tree-sitter."
         },
         {
             "name": "adisen99/codeschool.nvim",
             "url": "https://github.com/adisen99/codeschool.nvim",
-            "description": "Codeschool colorscheme written in Lua with Treesitter and builtin lsp support."
+            "description": "Codeschool colorscheme written in Lua with Tree-sitter and built-in lsp support."
         },
         {
             "name": "projekt0n/github-nvim-theme",
             "url": "https://github.com/projekt0n/github-nvim-theme",
-            "description": "A GitHub theme, kitty, alacritty written in Lua. Support builtin LSP and Treesitter."
+            "description": "A GitHub theme, kitty, alacritty written in Lua. Support built-in LSP and Tree-sitter."
         },
         {
             "name": "kdheepak/monochrome.nvim",
             "url": "https://github.com/kdheepak/monochrome.nvim",
-            "description": "A 16 bit monochrome colorscheme that uses hsluv for perceptually distinct gray colors, with support for Treesitter and other commonly used plugins."
+            "description": "A 16 bit monochrome colorscheme that uses hsluv for perceptually distinct gray colors, with support for Tree-sitter and other commonly used plugins."
         },
         {
             "name": "rose-pine/neovim",
@@ -2029,7 +1773,7 @@
         {
             "name": "catppuccin/nvim",
             "url": "https://github.com/catppuccin/nvim",
-            "description": "Warm midtone dark theme to show off your vibrant self! with support for native LSP, Treesitter, and more \ud83c\udf68!"
+            "description": "Warm mid-tone dark theme to show off your vibrant self! with support for native LSP, Tree-sitter, and more \ud83c\udf68!"
         },
         {
             "name": "FrenzyExists/aquarium-vim",
@@ -2044,12 +1788,12 @@
         {
             "name": "kvrohit/substrata.nvim",
             "url": "https://github.com/kvrohit/substrata.nvim",
-            "description": "A cold, dark color scheme written in Lua ported from [arzg/vimsubstrata"
+            "description": "A cold, dark color scheme written in Lua ported from [arzg/vim-substrata](https://github.com/arzg/vim-substrata) theme."
         },
         {
             "name": "ldelossa/vimdark",
             "url": "https://github.com/ldelossa/vimdark",
-            "description": "A minimal Vim theme for night time. Loosely based on vimmonotonic and chrome's dark reader extension. A light theme is included as well for the day time."
+            "description": "A minimal Vim theme for night time. Loosely based on vim-monotonic and chrome's dark reader extension. A light theme is included as well for the day time."
         },
         {
             "name": "Everblush/nvim",
@@ -2059,12 +1803,12 @@
         {
             "name": "adisen99/apprentice.nvim",
             "url": "https://github.com/adisen99/apprentice.nvim",
-            "description": "Colorscheme written in Lua based on the [Apprentice"
+            "description": "Colorscheme written in Lua based on the [Apprentice](https://github.com/romainl/Apprentice) color pattete with Tree-sitter and built-in lsp support."
         },
         {
             "name": "olimorris/onedarkpro.nvim",
             "url": "https://github.com/olimorris/onedarkpro.nvim",
-            "description": "Atom's iconic One Dark theme. Cacheable, fully customisable, Treesitter and LSP semantic token support. Comes with light and dark variants."
+            "description": "Atom's iconic One Dark theme. Cacheable, fully customisable, Tree-sitter and LSP semantic token support. Comes with light and dark variants."
         },
         {
             "name": "rmehri01/onenord.nvim",
@@ -2077,7 +1821,7 @@
             "description": "Gruvbuddy without colorbuddy using Lush."
         },
         {
-            "name": "echasnovski/mini.nvim#colorschemes",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim#plugin-colorschemes",
             "description": "Color schemes included in `mini.nvim` plugin. All of them prioritize high contrast ratio for reading text and computing palettes in perceptually uniform color spaces."
         },
@@ -2089,7 +1833,7 @@
         {
             "name": "titanzero/zephyrium",
             "url": "https://github.com/titanzero/zephyrium",
-            "description": "A zephyresque theme, written in Lua, with TreeSitter support."
+            "description": "A zephyr-esque theme, written in Lua, with TreeSitter support."
         },
         {
             "name": "rebelot/kanagawa.nvim",
@@ -2104,12 +1848,12 @@
         {
             "name": "kevinm6/kurayami.nvim",
             "url": "https://github.com/kevinm6/kurayami.nvim",
-            "description": "Dark (only"
+            "description": "Dark (only) theme."
         },
         {
             "name": "tiagovla/tokyodark.nvim",
             "url": "https://github.com/tiagovla/tokyodark.nvim",
-            "description": "A clean dark theme written in Lua (Neovim >= 0.5"
+            "description": "A clean dark theme written in Lua (Neovim >= 0.5) and above."
         },
         {
             "name": "cpea2506/one_monokai.nvim",
@@ -2119,12 +1863,12 @@
         {
             "name": "phha/zenburn.nvim",
             "url": "https://github.com/phha/zenburn.nvim",
-            "description": "A lowcontrast dark colorscheme with support for various plugins."
+            "description": "A low-contrast dark colorscheme with support for various plugins."
         },
         {
             "name": "kvrohit/rasmus.nvim",
             "url": "https://github.com/kvrohit/rasmus.nvim",
-            "description": "A dark color scheme written in Lua ported from [rsms/sublimetheme"
+            "description": "A dark color scheme written in Lua ported from [rsms/sublime-theme](https://github.com/rsms/sublime-theme) theme."
         },
         {
             "name": "chrsm/paramount-ng.nvim",
@@ -2134,12 +1878,12 @@
         {
             "name": "kaiuri/nvim-juliana",
             "url": "https://github.com/kaiuri/nvim-juliana",
-            "description": "Port of Sublime's Mariana Theme to Neovim for short attention span developers with Treesitter support."
+            "description": "Port of Sublime's Mariana Theme to Neovim for short attention span developers with Tree-sitter support."
         },
         {
             "name": "lmburns/kimbox",
             "url": "https://github.com/lmburns/kimbox",
-            "description": "A colorscheme with a dark background, and vibrant foreground that is centered around the color brown. A modification of [Kimbie Dark"
+            "description": "A colorscheme with a dark background, and vibrant foreground that is centered around the color brown. A modification of [Kimbie Dark](https://marketplace.visualstudio.com/items?itemName=dnamsons.kimbie-dark-plus)."
         },
         {
             "name": "rockyzhang24/arctic.nvim",
@@ -2154,12 +1898,12 @@
         {
             "name": "Yazeed1s/minimal.nvim",
             "url": "https://github.com/Yazeed1s/minimal.nvim",
-            "description": "Two treesitter supported colorschemes that are inspired by base16tomorrownight and monokaipro."
+            "description": "Two tree-sitter supported colorschemes that are inspired by base16-tomorrow-night and monokai-pro."
         },
         {
             "name": "lewpoly/sherbet.nvim",
             "url": "https://github.com/lewpoly/sherbet.nvim",
-            "description": "A soothing colorscheme with support for popular plugins and treesitter."
+            "description": "A soothing colorscheme with support for popular plugins and tree-sitter."
         },
         {
             "name": "Mofiqul/adwaita.nvim",
@@ -2169,22 +1913,22 @@
         {
             "name": "olivercederborg/poimandres.nvim",
             "url": "https://github.com/olivercederborg/poimandres.nvim",
-            "description": "Neovim port of [poimandres VSCode theme"
+            "description": "Neovim port of [poimandres VSCode theme](https://github.com/drcmda/poimandres-theme) with Tree-sitter support, written in Lua."
         },
         {
             "name": "mellow-theme/mellow.nvim",
             "url": "https://github.com/mellow-theme/mellow.nvim",
-            "description": "A soothing dark color scheme with treesitter support."
+            "description": "A soothing dark color scheme with tree-sitter support."
         },
         {
             "name": "gbprod/nord.nvim",
             "url": "https://github.com/gbprod/nord.nvim",
-            "description": "An arctic, northbluish clean and elegant Neovim theme, based on Nord Palette."
+            "description": "An arctic, north-bluish clean and elegant Neovim theme, based on Nord Palette."
         },
         {
             "name": "Yazeed1s/oh-lucy.nvim",
             "url": "https://github.com/Yazeed1s/oh-lucy.nvim",
-            "description": "Two treesitter supported colorschemes, inspired by ohlucy in vscode."
+            "description": "Two tree-sitter supported colorschemes, inspired by oh-lucy in vscode."
         },
         {
             "name": "embark-theme/vim",
@@ -2204,7 +1948,7 @@
         {
             "name": "dasupradyumna/midnight.nvim",
             "url": "https://github.com/dasupradyumna/midnight.nvim",
-            "description": "A modern black Neovim theme with comfortable color contrast for a pleasant visual experience, with LSP and Treesitter support."
+            "description": "A modern black Neovim theme with comfortable color contrast for a pleasant visual experience, with LSP and Tree-sitter support."
         },
         {
             "name": "sonjiku/yawnc.nvim",
@@ -2214,12 +1958,12 @@
         {
             "name": "uncleTen276/dark_flat.nvim",
             "url": "https://github.com/uncleTen276/dark_flat.nvim",
-            "description": "A Neovim colorscheme written in Lua ported from Dark Flat iTerm2 theme, with LSP and Treesitter support."
+            "description": "A Neovim colorscheme written in Lua ported from Dark Flat iTerm2 theme, with LSP and Tree-sitter support."
         },
         {
             "name": "zootedb0t/citruszest.nvim",
             "url": "https://github.com/zootedb0t/citruszest.nvim",
-            "description": "A colorscheme that features a combination of bright and juicy colors reminiscent of various citrus fruits, with LSP and Treesitter support."
+            "description": "A colorscheme that features a combination of bright and juicy colors reminiscent of various citrus fruits, with LSP and Tree-sitter support."
         },
         {
             "name": "2nthony/vitesse.nvim",
@@ -2229,12 +1973,12 @@
         {
             "name": "xero/miasma.nvim",
             "url": "https://github.com/xero/miasma.nvim",
-            "description": "A dark pastel color scheme inspired by the woods. Built using lush and supports Treesitter, diagnostics, CMP, GitSigns, Telescope, Whichkey, Lazy, and more."
+            "description": "A dark pastel color scheme inspired by the woods. Built using lush and supports Tree-sitter, diagnostics, CMP, Git-Signs, Telescope, Which-key, Lazy, and more."
         },
         {
             "name": "Verf/deepwhite.nvim",
             "url": "https://github.com/Verf/deepwhite.nvim",
-            "description": "A light colorscheme inspired by [flatwhitesyntax"
+            "description": "A light colorscheme inspired by [flatwhite-syntax](https://github.com/biletskyy/flatwhite-syntax) and [elegant-emacs](https://github.com/rougier/elegant-emacs)."
         },
         {
             "name": "judaew/ronny.nvim",
@@ -2254,32 +1998,32 @@
         {
             "name": "polirritmico/monokai-nightasty.nvim",
             "url": "https://github.com/polirritmico/monokai-nightasty.nvim",
-            "description": "A dark/light theme based on the Monokai color palette written in Lua, support for LSP, Treesitter and lots of plugins."
+            "description": "A dark/light theme based on the Monokai color palette written in Lua, support for LSP, Tree-sitter and lots of plugins."
         },
         {
             "name": "oxfist/night-owl.nvim",
             "url": "https://github.com/oxfist/night-owl.nvim",
-            "description": "A [Night Owl colorscheme port from VSCode"
+            "description": "A [Night Owl colorscheme port from VSCode](https://github.com/sdras/night-owl-vscode-theme) with support for Tree-sitter and semantic tokens."
         },
         {
-            "name": "text-to-colorscheme",
+            "name": "svermeulen/text-to-colorscheme",
             "url": "https://github.com/svermeulen/text-to-colorscheme",
             "description": "Dynamically generated colorschemes generated on the fly with a text prompt using ChatGPT."
         },
         {
             "name": "miikanissi/modus-themes.nvim",
             "url": "https://github.com/miikanissi/modus-themes.nvim",
-            "description": "Accessible theme, conforming with the highest standard for color contrast (WCAG AAA"
+            "description": "Accessible theme, conforming with the highest standard for color contrast (WCAG AAA)."
         },
         {
             "name": "alexmozaidze/palenight.nvim",
             "url": "https://github.com/alexmozaidze/palenight.nvim",
-            "description": "Palenight colorscheme supporting Treesitter, LSP _(including semantic tokens"
+            "description": "Palenight colorscheme supporting Tree-sitter, LSP _(including semantic tokens)_ and lots of plugins."
         },
         {
             "name": "scottmckendry/cyberdream.nvim",
             "url": "https://github.com/scottmckendry/cyberdream.nvim",
-            "description": "A highcontrast, futuristic & vibrant coloursheme."
+            "description": "A high-contrast, futuristic & vibrant coloursheme."
         },
         {
             "name": "HoNamDuong/hybrid.nvim",
@@ -2289,12 +2033,12 @@
         {
             "name": "sxwpb/halfspace.nvim",
             "url": "https://gitlab.com/sxwpb/halfspace.nvim",
-            "description": "A semilight colorscheme for minimal eye melting."
+            "description": "A semi-light colorscheme for minimal eye melting."
         },
         {
             "name": "bartekjaszczak/distinct-nvim",
             "url": "https://gitlab.com/bartekjaszczak/distinct-nvim",
-            "description": "Theme with distinct syntax colours. Supports Treesitter and semantic highlighting. For people who love multicolour syntax highlighting."
+            "description": "Theme with distinct syntax colours. Supports Tree-sitter and semantic highlighting. For people who love multi-colour syntax highlighting."
         },
         {
             "name": "samharju/synthweave.nvim",
@@ -2309,12 +2053,12 @@
         {
             "name": "ptdewey/darkearth-nvim",
             "url": "https://github.com/ptdewey/darkearth-nvim",
-            "description": "A dark and earthy colorscheme supporting Treesitter and LSP."
+            "description": "A dark and earthy colorscheme supporting Tree-sitter and LSP."
         },
         {
             "name": "uloco/bluloco.nvim",
             "url": "https://github.com/uloco/bluloco.nvim",
-            "description": "A fancy and sophisticated colorscheme for night and day coding. Supports LSP, Treesitter and all the plugins you love."
+            "description": "A fancy and sophisticated colorscheme for night and day coding. Supports LSP, Tree-sitter and all the plugins you love."
         },
         {
             "name": "slugbyte/lackluster.nvim",
@@ -2329,15 +2073,13 @@
         {
             "name": "samharju/serene.nvim",
             "url": "https://github.com/samharju/serene.nvim",
-            "description": "A soothing and dark treesitter/LSPsupported theme for relaxing your eyes after using more vibrant colorschemes."
+            "description": "A soothing and dark tree-sitter/LSP-supported theme for relaxing your eyes after using more vibrant colorschemes."
         },
         {
             "name": "killitar/obscure.nvim",
             "url": "https://github.com/killitar/obscure.nvim",
-            "description": "A pastel dark colorscheme inspired by the palette Mellow. Support Treesitter, LSP _(including semantic tokens"
-        }
-    ],
-    "Lua Colorscheme": [
+            "description": "A pastel dark colorscheme inspired by the palette Mellow. Support Tree-sitter, LSP _(including semantic tokens)_ and lots of plugins."
+        },
         {
             "name": "tjdevries/gruvbuddy.nvim",
             "url": "https://github.com/tjdevries/gruvbuddy.nvim",
@@ -2361,10 +2103,8 @@
         {
             "name": "calind/selenized.nvim",
             "url": "https://github.com/calind/selenized.nvim",
-            "description": "Lua port of Selenized theme with support for Treesitter, nvimcmp, GitSigns and some more."
-        }
-    ],
-    "Colorscheme Creation": [
+            "description": "Lua port of Selenized theme with support for Tree-sitter, nvim-cmp, GitSigns and some more."
+        },
         {
             "name": "tjdevries/colorbuddy.nvim",
             "url": "https://github.com/tjdevries/colorbuddy.nvim",
@@ -2378,7 +2118,7 @@
         {
             "name": "rktjmp/lush.nvim",
             "url": "https://github.com/rktjmp/lush.nvim",
-            "description": "Define Neovim themes as a DSL in Lua, with realtime feedback."
+            "description": "Define Neovim themes as a DSL in Lua, with real-time feedback."
         },
         {
             "name": "roobert/palette.nvim",
@@ -2391,36 +2131,34 @@
             "description": "A colorscheme generator that is \"lite\" on logic for the developer."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.base16",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-base16.md",
             "description": "Module of `mini.nvim` with fast implementation of base16 theme for manually supplied palette."
         },
         {
             "name": "ThemerCorp/themer.lua",
             "url": "https://github.com/ThemerCorp/themer.lua",
-            "description": "A simple highlighter plugin for neovim. It has a huge collection of colorschemes. It also has ability to create colorschemes for Vim/Neovim and other supported apps (such as kitty and alacritty"
+            "description": "A simple highlighter plugin for neovim. It has a huge collection of colorschemes. It also has ability to create colorschemes for Vim/Neovim and other supported apps (such as kitty and alacritty)."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.colors",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-colors.md",
             "description": "Module of `mini.nvim` to tweak and save any color scheme. Also can animate transition and convert between some color spaces."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.hues",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-hues.md",
-            "description": "Module of `mini.nvim` to generate configurable color scheme. Takes only background and foreground colors as required arguments. Can adjust number of hues for nonbase colors, saturation, accent color, plugin integration."
+            "description": "Module of `mini.nvim` to generate configurable color scheme. Takes only background and foreground colors as required arguments. Can adjust number of hues for non-base colors, saturation, accent color, plugin integration."
         },
         {
             "name": "loganswartz/polychrome.nvim",
             "url": "https://github.com/loganswartz/polychrome.nvim",
-            "description": "A colorscheme microframework, with support for specifying colors directly in many different formats (sRGB, HSL, Oklab, XYZ and more, with intelligent chroma clipping"
-        }
-    ],
-    "Colorscheme Switchers": [
+            "description": "A colorscheme micro-framework, with support for specifying colors directly in many different formats (sRGB, HSL, Oklab, XYZ and more, with intelligent chroma clipping), live editing preview, and a simple DSL."
+        },
         {
             "name": "4e554c4c/darkman.nvim",
             "url": "https://github.com/4e554c4c/darkman.nvim",
-            "description": "Follow the system darkmode setting on Linux."
+            "description": "Follow the system dark-mode setting on Linux."
         },
         {
             "name": "f-person/auto-dark-mode.nvim",
@@ -2472,7 +2210,7 @@
         {
             "name": "Bekaboo/dropbar.nvim",
             "url": "https://github.com/Bekaboo/dropbar.nvim",
-            "description": "IDElike breadcrumbs, out of the box."
+            "description": "IDE-like breadcrumbs, out of the box."
         },
         {
             "name": "SmiteshP/nvim-navic",
@@ -2483,9 +2221,7 @@
             "name": "luukvbaal/statuscol.nvim",
             "url": "https://github.com/luukvbaal/statuscol.nvim",
             "description": "Configurable 'statuscolumn' with builtin segments and click handlers."
-        }
-    ],
-    "Statusline": [
+        },
         {
             "name": "NTBBloodbath/galaxyline.nvim",
             "url": "https://github.com/NTBBloodbath/galaxyline.nvim",
@@ -2494,7 +2230,7 @@
         {
             "name": "tjdevries/express_line.nvim",
             "url": "https://github.com/tjdevries/express_line.nvim",
-            "description": "Supports coroutines, functions and jobs."
+            "description": "Supports co-routines, functions and jobs."
         },
         {
             "name": "sontungexpt/sttusline",
@@ -2514,12 +2250,12 @@
         {
             "name": "ojroques/nvim-hardline",
             "url": "https://github.com/ojroques/nvim-hardline",
-            "description": "A statusline / bufferline. It is inspired by [vimairline"
+            "description": "A statusline / bufferline. It is inspired by [vim-airline](https://github.com/vim-airline/vim-airline) but aims to be as light and simple as possible."
         },
         {
             "name": "beauwilliams/statusline.lua",
             "url": "https://github.com/beauwilliams/statusline.lua",
-            "description": "A zeroconfig minimal statusline written in Lua featuring awesome integrations and blazing speed!"
+            "description": "A zero-config minimal statusline written in Lua featuring awesome integrations and blazing speed!"
         },
         {
             "name": "tamton-aquib/staline.nvim",
@@ -2542,7 +2278,7 @@
             "description": "A galaxyline configuration inspired by airline."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.statusline",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-statusline.md",
             "description": "Module of `mini.nvim` for minimal and fast statusline. Supports content change depending on window width."
         },
@@ -2554,7 +2290,7 @@
         {
             "name": "rebelot/heirline.nvim",
             "url": "https://github.com/rebelot/heirline.nvim",
-            "description": "Heirline.nvim is a nononsense Neovim Statusline plugin designed around recursive inheritance to be exceptionally fast and versatile."
+            "description": "Heirline.nvim is a no-nonsense Neovim Statusline plugin designed around recursive inheritance to be exceptionally fast and versatile."
         },
         {
             "name": "Zeioth/heirline-components.nvim",
@@ -2564,7 +2300,7 @@
         {
             "name": "yaocccc/nvim-lines.lua",
             "url": "https://github.com/yaocccc/nvim-lines.lua",
-            "description": "A fast, light, customizable Neovim statusline and tabline(buffers"
+            "description": "A fast, light, customizable Neovim statusline and tabline(buffers) plugin."
         },
         {
             "name": "MunifTanjim/nougat.nvim",
@@ -2579,10 +2315,8 @@
         {
             "name": "mikesmithgh/git-prompt-string-lualine.nvim",
             "url": "https://github.com/mikesmithgh/git-prompt-string-lualine.nvim",
-            "description": "Add gitpromptstring to your statusline."
-        }
-    ],
-    "Tabline": [
+            "description": "Add git-prompt-string to your statusline."
+        },
         {
             "name": "romgrk/barbar.nvim",
             "url": "https://github.com/romgrk/barbar.nvim",
@@ -2624,14 +2358,14 @@
             "description": "Simple and Fancy tabline."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.tabline",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-tabline.md",
             "description": "Module of `mini.nvim` for minimal tabline showing listed buffers in case of one tab and falling back to default otherwise."
         },
         {
             "name": "rafcamlet/tabline-framework.nvim",
             "url": "https://github.com/rafcamlet/tabline-framework.nvim",
-            "description": "Userfriendly framework for building your dream tabline in a few lines of code."
+            "description": "User-friendly framework for building your dream tabline in a few lines of code."
         },
         {
             "name": "nanozuki/tabby.nvim",
@@ -2642,9 +2376,7 @@
             "name": "roobert/bufferline-cycle-windowless.nvim",
             "url": "https://github.com/roobert/bufferline-cycle-windowless.nvim",
             "description": "A bufferline extension to cycle through windowless buffers to give a more traditional tab based experience."
-        }
-    ],
-    "Cursorline": [
+        },
         {
             "name": "yamatsum/nvim-cursorline",
             "url": "https://github.com/yamatsum/nvim-cursorline",
@@ -2653,12 +2385,12 @@
         {
             "name": "xiyaowong/nvim-cursorword",
             "url": "https://github.com/xiyaowong/nvim-cursorword",
-            "description": "Part of nvimcursorline. Highlight the word under the cursor."
+            "description": "Part of nvim-cursorline. Highlight the word under the cursor."
         },
         {
             "name": "sontungexpt/stcursorword",
             "url": "https://github.com/sontungexpt/stcursorword",
-            "description": "Highlight the word under the cursor (Improved and compact version of nvimcursorline"
+            "description": "Highlight the word under the cursor (Improved and compact version of nvim-cursorline)."
         },
         {
             "name": "RRethy/vim-illuminate",
@@ -2666,9 +2398,9 @@
             "description": "Highlight the word under the cursor. Neovim's builtin LSP is available, it can be used to highlight more intelligently."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.cursorword",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-cursorword.md",
-            "description": "Module of `mini.nvim` for automatic highlighting of word under cursor (displayed after customizable delay"
+            "description": "Module of `mini.nvim` for automatic highlighting of word under cursor (displayed after customizable delay)."
         },
         {
             "name": "mawkler/modicator.nvim",
@@ -2678,22 +2410,22 @@
         {
             "name": "nyngwang/murmur.lua",
             "url": "https://github.com/nyngwang/murmur.lua",
-            "description": "Superfast cursor word highlighting with callbacks(I call them murmurs"
+            "description": "Super-fast cursor word highlighting with callbacks(I call them murmurs) included."
         }
     ],
     "Startup": [
         {
             "name": "nvimdev/dashboard-nvim",
             "url": "https://github.com/nvimdev/dashboard-nvim",
-            "description": "A minimalist dashboard, inspired by doomemacs."
+            "description": "A minimalist dashboard, inspired by doom-emacs."
         },
         {
             "name": "goolord/alpha-nvim",
             "url": "https://github.com/goolord/alpha-nvim",
-            "description": "A fast and highly customizable greeter like [vimstartify"
+            "description": "A fast and highly customizable greeter like [vim-startify](https://github.com/mhinz/vim-startify)/dashboard-nvim."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.starter",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-starter.md",
             "description": "Module of `mini.nvim` for start screen. Displayed items are fully customizable, item selection can be done using prefix query with instant visual feedback."
         },
@@ -2732,17 +2464,17 @@
         {
             "name": "nvim-tree/nvim-web-devicons",
             "url": "https://github.com/nvim-tree/nvim-web-devicons",
-            "description": "A Lua fork of [vimdevicons"
+            "description": "A Lua fork of [vim-devicons](https://github.com/ryanoasis/vim-devicons)."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.icons",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-icons.md",
-            "description": "Module of `mini.nvim` meant as a general icon provider. Uses fixed set of highlight groups. Supports various categories, icon and style customizations, caching for performance. Integrates with builtin filetype matching."
+            "description": "Module of `mini.nvim` meant as a general icon provider. Uses fixed set of highlight groups. Supports various categories, icon and style customizations, caching for performance. Integrates with built-in filetype matching."
         },
         {
             "name": "yamatsum/nvim-nonicons",
             "url": "https://github.com/yamatsum/nvim-nonicons",
-            "description": "Collection of configurations for nvimwebdevicons."
+            "description": "Collection of configurations for nvim-web-devicons."
         },
         {
             "name": "ziontee113/icon-picker.nvim",
@@ -2779,7 +2511,7 @@
         {
             "name": "askfiy/nvim-picgo",
             "url": "https://github.com/askfiy/nvim-picgo",
-            "description": "A picgocorebased Neovim plugin, written in Lua, that allows you to upload images to the image bed, which means you can view your images from anywhere on the internet."
+            "description": "A picgo-core-based Neovim plugin, written in Lua, that allows you to upload images to the image bed, which means you can view your images from anywhere on the internet."
         },
         {
             "name": "madskjeldgaard/reaper-nvim",
@@ -2804,7 +2536,7 @@
         {
             "name": "krady21/compiler-explorer.nvim",
             "url": "https://github.com/krady21/compiler-explorer.nvim",
-            "description": "Async Lua plugin for interacting with [compilerexplorer"
+            "description": "Async Lua plugin for interacting with [compiler-explorer](https://godbolt.org/)."
         },
         {
             "name": "samodostal/image.nvim",
@@ -2829,19 +2561,19 @@
         {
             "name": "AntonVanAssche/music-controls.nvim",
             "url": "https://github.com/AntonVanAssche/music-controls.nvim",
-            "description": "Quickly control your favorite music player (Spotify, VLC, and more"
+            "description": "Quickly control your favorite music player (Spotify, VLC, and more)."
         }
     ],
     "Note Taking": [
         {
             "name": "0styx0/abbreinder.nvim",
             "url": "https://github.com/0styx0/abbreinder.nvim",
-            "description": "Abbreviation reminders (Neovim >= 0.5"
+            "description": "Abbreviation reminders (Neovim >= 0.5)."
         },
         {
             "name": "jakewvincent/mkdnflow.nvim",
             "url": "https://github.com/jakewvincent/mkdnflow.nvim",
-            "description": "Fluent markdown notebook navigation & management (create links, follow links, create and manage todo lists, reference bib files, and more"
+            "description": "Fluent markdown notebook navigation & management (create links, follow links, create and manage to-do lists, reference bib files, and more)."
         },
         {
             "name": "oberblastmeister/neuron.nvim",
@@ -2861,7 +2593,7 @@
         {
             "name": "nvim-orgmode/orgmode",
             "url": "https://github.com/nvim-orgmode/orgmode",
-            "description": "Orgmode clone written in Lua (Neovim >= 0.5"
+            "description": "Orgmode clone written in Lua (Neovim >= 0.5)."
         },
         {
             "name": "nfrid/due.nvim",
@@ -2881,12 +2613,12 @@
         {
             "name": "nvim-telekasten/telekasten.nvim",
             "url": "https://github.com/nvim-telekasten/telekasten.nvim",
-            "description": "Work with a textbased, markdown zettelkasten / wiki and mix it with a journal, based on telescope.nvim."
+            "description": "Work with a text-based, markdown zettelkasten / wiki and mix it with a journal, based on telescope.nvim."
         },
         {
             "name": "zk-org/zk-nvim",
             "url": "https://github.com/zk-org/zk-nvim",
-            "description": "Neovim extension for zk, a plain text notetaking assistant."
+            "description": "Neovim extension for zk, a plain text note-taking assistant."
         },
         {
             "name": "chrsm/impulse.nvim",
@@ -2921,7 +2653,7 @@
         {
             "name": "RutaTang/quicknote.nvim",
             "url": "https://github.com/RutaTang/quicknote.nvim",
-            "description": "Quickly take notes, inplace."
+            "description": "Quickly take notes, in-place."
         },
         {
             "name": "serenevoid/kiwi.nvim",
@@ -2936,7 +2668,7 @@
         {
             "name": "gsuuon/note.nvim",
             "url": "https://github.com/gsuuon/note.nvim",
-            "description": "Daily tasks with deeplinking and project spaces."
+            "description": "Daily tasks with deep-linking and project spaces."
         },
         {
             "name": "backdround/global-note.nvim",
@@ -2963,7 +2695,7 @@
         {
             "name": "mateuszwieloch/automkdir.nvim",
             "url": "https://github.com/mateuszwieloch/automkdir.nvim",
-            "description": "Automatically create nonexistent parent directories when writing a file."
+            "description": "Automatically create non-existent parent directories when writing a file."
         },
         {
             "name": "jghauser/mkdir.nvim",
@@ -3011,9 +2743,9 @@
             "description": "A fancy, configurable, notification manager."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.notify",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-notify.md",
-            "description": "Module of `mini.nvim` to show one or more highlighted notifications in a single window. Provides maker of `vim.notify("
+            "description": "Module of `mini.nvim` to show one or more highlighted notifications in a single window. Provides maker of `vim.notify()` implementation and sets up automated LSP progress updates."
         },
         {
             "name": "folke/noice.nvim",
@@ -3033,7 +2765,7 @@
         {
             "name": "stevearc/dressing.nvim",
             "url": "https://github.com/stevearc/dressing.nvim",
-            "description": "Improve the builtin `vim.ui` interfaces with telescope, fzf, etc."
+            "description": "Improve the built-in `vim.ui` interfaces with telescope, fzf, etc."
         },
         {
             "name": "gaborvecsei/cryptoprice.nvim",
@@ -3118,12 +2850,12 @@
         {
             "name": "CosmicNvim/cosmic-ui",
             "url": "https://github.com/CosmicNvim/cosmic-ui",
-            "description": "CosmicUI is a simple wrapper around specific Vim functionality. Built in order to provide a quick and easy way to create a Cosmic UI experience with Neovim!"
+            "description": "Cosmic-UI is a simple wrapper around specific Vim functionality. Built in order to provide a quick and easy way to create a Cosmic UI experience with Neovim!"
         },
         {
             "name": "AckslD/messages.nvim",
             "url": "https://github.com/AckslD/messages.nvim",
-            "description": "Capture and show any messages in a customisable (floating"
+            "description": "Capture and show any messages in a customisable (floating) buffer."
         },
         {
             "name": "jbyuki/instant.nvim",
@@ -3143,7 +2875,7 @@
         {
             "name": "bfredl/nvim-miniyank",
             "url": "https://github.com/bfredl/nvim-miniyank",
-            "description": "The killringalike plugin with no default mappings."
+            "description": "The killring-alike plugin with no default mappings."
         },
         {
             "name": "chrisgrieser/nvim-genghis",
@@ -3156,9 +2888,9 @@
             "description": "Simplifying and improving how you interact with macros."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.animate",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-animate.md",
-            "description": "Module of `mini.nvim` to add out of the box animations for common builtin actions (cursor movement, scroll, resize, window open/close"
+            "description": "Module of `mini.nvim` to add out of the box animations for common built-in actions (cursor movement, scroll, resize, window open/close)."
         },
         {
             "name": "figsoda/nix-develop.nvim",
@@ -3178,7 +2910,7 @@
         {
             "name": "zdcthomas/yop.nvim",
             "url": "https://github.com/zdcthomas/yop.nvim",
-            "description": "Easily create your own operators (like `d` and `y`"
+            "description": "Easily create your own operators (like `d` and `y`)."
         },
         {
             "name": "cpea2506/relative-toggle.nvim",
@@ -3186,12 +2918,12 @@
             "description": "Toggles smoothly between number and relative numbers, supporting various number combinations, highly customizable."
         },
         {
-            "name": "nvim-early-retirement",
+            "name": "chrisgrieser/nvim-early-retirement",
             "url": "https://github.com/chrisgrieser/nvim-early-retirement",
             "description": "Send buffers into early retirement by automatically closing them after x minutes of inactivity."
         },
         {
-            "name": "hbac.nvim",
+            "name": "axkirillov/hbac.nvim",
             "url": "https://github.com/axkirillov/hbac.nvim",
             "description": "Automatically close buffers you are not working on."
         },
@@ -3213,7 +2945,7 @@
         {
             "name": "RutaTang/compter.nvim",
             "url": "https://github.com/RutaTang/compter.nvim",
-            "description": "Power and extend the ability of `<Ca>` and `<Cx>` with customized patterns."
+            "description": "Power and extend the ability of `<C-a>` and `<C-x>` with customized patterns."
         },
         {
             "name": "yagiziskirik/AirSupport.nvim",
@@ -3278,17 +3010,17 @@
         {
             "name": "ariel-frischer/bmessages.nvim",
             "url": "https://github.com/ariel-frischer/bmessages.nvim",
-            "description": "Replace the default :messages window with a configurable, autoupdating buffer."
+            "description": "Replace the default :messages window with a configurable, auto-updating buffer."
         },
         {
             "name": "LintaoAmons/easy-commands.nvim",
             "url": "https://github.com/LintaoAmons/easy-commands.nvim",
-            "description": "A collection of intuitive, easily searchable, and readytouse commands."
+            "description": "A collection of intuitive, easily searchable, and ready-to-use commands."
         },
         {
             "name": "backdround/tabscope.nvim",
             "url": "https://github.com/backdround/tabscope.nvim",
-            "description": "Make tablocal buffers."
+            "description": "Make tab-local buffers."
         },
         {
             "name": "linrongbin16/gentags.nvim",
@@ -3323,7 +3055,7 @@
         {
             "name": "pluffie/md-babel.nvim",
             "url": "https://codeberg.org/pluffie/md-babel.nvim",
-            "description": "Run code chunks from Markdown files, like orgbabel."
+            "description": "Run code chunks from Markdown files, like org-babel."
         },
         {
             "name": "mistricky/codesnap.nvim",
@@ -3333,7 +3065,7 @@
         {
             "name": "AlejandroSuero/freeze-code.nvim",
             "url": "https://github.com/AlejandroSuero/freeze-code.nvim",
-            "description": "Code screenshot plugin that makes use of [freeze"
+            "description": "Code screenshot plugin that makes use of [freeze](https://github.com/charmbracelet/freeze) inside the editor, it lets you **copy** the generated image to **paste it anywhere**."
         },
         {
             "name": "ysmb-wtsg/in-and-out.nvim",
@@ -3364,9 +3096,12 @@
             "name": "SunnyTamang/pendulum.nvim",
             "url": "https://github.com/SunnyTamang/pendulum.nvim",
             "description": "Simple timer for creating time based productive sessions for coders, competitive programmers, developers etc."
-        }
-    ],
-    "CSV Files": [
+        },
+        {
+            "name": "ptdewey/pendulum-nvim",
+            "url": "https://github.com/ptdewey/pendulum-nvim",
+            "description": "Track time spent coding and glean insights through on-demand time reports."
+        },
         {
             "name": "VidocqH/data-viewer.nvim",
             "url": "https://github.com/VidocqH/data-viewer.nvim",
@@ -3375,7 +3110,7 @@
         {
             "name": "theKnightsOfRohan/csvlens.nvim",
             "url": "https://github.com/theKnightsOfRohan/csvlens.nvim",
-            "description": "A port of [YSL/csvlens"
+            "description": "A port of [YS-L/csvlens](https://github.com/YS-L/csvlens), for easy previewing of tabular data."
         },
         {
             "name": "emmanueltouzery/decisive.nvim",
@@ -3422,7 +3157,7 @@
         {
             "name": "pianocomposer321/consolation.nvim",
             "url": "https://github.com/pianocomposer321/consolation.nvim",
-            "description": "A generalpurpose terminal wrapper and management plugin, written in Lua."
+            "description": "A general-purpose terminal wrapper and management plugin, written in Lua."
         },
         {
             "name": "jghauser/kitty-runner.nvim",
@@ -3437,12 +3172,12 @@
         {
             "name": "s1n7ax/nvim-terminal",
             "url": "https://github.com/s1n7ax/nvim-terminal",
-            "description": "A simple & easy to use multiterminal plugin."
+            "description": "A simple & easy to use multi-terminal plugin."
         },
         {
             "name": "m00qek/baleia.nvim",
             "url": "https://github.com/m00qek/baleia.nvim",
-            "description": "Colorize text with ANSI escape sequences (8, 16, 256 or TrueColor"
+            "description": "Colorize text with ANSI escape sequences (8, 16, 256 or TrueColor)."
         },
         {
             "name": "samjwill/nvim-unception",
@@ -3509,27 +3244,27 @@
         {
             "name": "rcarriga/nvim-dap-ui",
             "url": "https://github.com/rcarriga/nvim-dap-ui",
-            "description": "A UI for nvimdap."
+            "description": "A UI for nvim-dap."
         },
         {
             "name": "pocco81/dap-buddy.nvim",
             "url": "https://github.com/pocco81/dap-buddy.nvim",
-            "description": "Manage several debuggers for nvimdap."
+            "description": "Manage several debuggers for nvim-dap."
         },
         {
             "name": "Weissle/persistent-breakpoints.nvim",
             "url": "https://github.com/Weissle/persistent-breakpoints.nvim",
-            "description": "Persistent breakpoints for nvimdap."
+            "description": "Persistent breakpoints for nvim-dap."
         },
         {
             "name": "ofirgall/goto-breakpoints.nvim",
             "url": "https://github.com/ofirgall/goto-breakpoints.nvim",
-            "description": "Cycle between breakpoints for nvimdap."
+            "description": "Cycle between breakpoints for nvim-dap."
         },
         {
             "name": "andrewferrier/debugprint.nvim",
             "url": "https://github.com/andrewferrier/debugprint.nvim",
-            "description": "Debugging the print("
+            "description": "Debugging the print() way."
         },
         {
             "name": "t-troebst/perfanno.nvim",
@@ -3539,29 +3274,27 @@
         {
             "name": "niuiic/dap-utils",
             "url": "https://github.com/niuiic/dap-utils.nvim",
-            "description": "Utilities to provide a better experience for using nvimdap."
+            "description": "Utilities to provide a better experience for using nvim-dap."
         },
         {
             "name": "theHamsta/nvim-dap-virtual-text",
             "url": "https://github.com/theHamsta/nvim-dap-virtual-text",
-            "description": "Virtual text support for nvimdap."
+            "description": "Virtual text support for nvim-dap."
         },
         {
             "name": "chrisgrieser/nvim-chainsaw",
             "url": "https://github.com/chrisgrieser/nvim-chainsaw",
-            "description": "Speed up log creation. Creates various kinds of languagespecific log statements, like logs of variables, assertions, or timemeasuring."
+            "description": "Speed up log creation. Creates various kinds of language-specific log statements, like logs of variables, assertions, or time-measuring."
         },
         {
             "name": "Willem-J-an/visidata.nvim",
             "url": "https://github.com/Willem-J-an/visidata.nvim",
-            "description": "Render pandas dataframes in nvimdap using the power of visidata."
-        }
-    ],
-    "Quickfix": [
+            "description": "Render pandas dataframes in nvim-dap using the power of visidata."
+        },
         {
             "name": "kevinhwang91/nvim-bqf",
             "url": "https://github.com/kevinhwang91/nvim-bqf",
-            "description": "The goal of nvimbqf is to make Neovim's quickfix window better."
+            "description": "The goal of nvim-bqf is to make Neovim's quickfix window better."
         },
         {
             "name": "yorickpeterse/nvim-pqf",
@@ -3576,7 +3309,7 @@
         {
             "name": "ashfinal/qfview.nvim",
             "url": "https://github.com/ashfinal/qfview.nvim",
-            "description": "Pretty quickfix/location view with consistent pathshorten and folding."
+            "description": "Pretty quickfix/location view with consistent path-shorten and folding."
         },
         {
             "name": "niuiic/quickfix.nvim",
@@ -3737,7 +3470,7 @@
         {
             "name": "benlubas/molten-nvim",
             "url": "https://github.com/benlubas/molten-nvim",
-            "description": "Enables running code chunks via the jupyter kernel. Output (including image output"
+            "description": "Enables running code chunks via the jupyter kernel. Output (including image output) is rendered in a floating window below the code."
         },
         {
             "name": "bfredl/nvim-ipy",
@@ -3789,7 +3522,7 @@
         {
             "name": "rafcamlet/nvim-luapad",
             "url": "https://github.com/rafcamlet/nvim-luapad",
-            "description": "Interactive real time Neovim scratchpad for embedded Lua engine  Type and watch!."
+            "description": "Interactive real time Neovim scratchpad for embedded Lua engine - Type and watch!."
         },
         {
             "name": "nvim-lua/plenary.nvim",
@@ -3814,7 +3547,7 @@
         {
             "name": "jbyuki/one-small-step-for-vimkind",
             "url": "https://github.com/jbyuki/one-small-step-for-vimkind",
-            "description": "An adapter for the Neovim Lua language. It allows you to debug any Lua code running in a Neovim instance (A Lua plugin that can debug Neovim Lua plugins"
+            "description": "An adapter for the Neovim Lua language. It allows you to debug any Lua code running in a Neovim instance (A Lua plugin that can debug Neovim Lua plugins)."
         },
         {
             "name": "kkharji/sqlite.lua",
@@ -3827,9 +3560,9 @@
             "description": "UI Component Library."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.doc",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-doc.md",
-            "description": "Module of `mini.nvim` for generation of help files from EmmyLualike annotations. Allows flexible customization of output via hook functions."
+            "description": "Module of `mini.nvim` for generation of help files from EmmyLua-like annotations. Allows flexible customization of output via hook functions."
         },
         {
             "name": "nanotee/luv-vimdocs",
@@ -3842,9 +3575,9 @@
             "description": "A reference for builtin Lua functions."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.test",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-test.md",
-            "description": "Module of `mini.nvim` with framework for writing extensive Neovim plugin tests. Supports hierarchical tests, hooks, parametrization, filtering, screen tests, \"bustedstyle\" emulation, customizable reporters, and more."
+            "description": "Module of `mini.nvim` with framework for writing extensive Neovim plugin tests. Supports hierarchical tests, hooks, parametrization, filtering, screen tests, \"busted-style\" emulation, customizable reporters, and more."
         },
         {
             "name": "miversen33/import.nvim",
@@ -3867,7 +3600,7 @@
             "description": "Some useful Treesitter methods."
         },
         {
-            "name": "nvim-lusc",
+            "name": "svermeulen/nvim-lusc",
             "url": "https://github.com/svermeulen/nvim-lusc",
             "description": "Adds support for Structured Async/Concurrency in Lua."
         },
@@ -3881,7 +3614,7 @@
         {
             "name": "Olical/aniseed",
             "url": "https://github.com/Olical/aniseed",
-            "description": "Configure and extend Neovim with Fennel (Lisp to Lua"
+            "description": "Configure and extend Neovim with Fennel (Lisp to Lua)."
         },
         {
             "name": "Olical/nfnl",
@@ -3891,7 +3624,7 @@
         {
             "name": "Olical/conjure",
             "url": "https://github.com/Olical/conjure",
-            "description": "Interactive evaluation (Clojure, Fennel, Janet, Racket, Hy, MIT Scheme, Guile"
+            "description": "Interactive evaluation (Clojure, Fennel, Janet, Racket, Hy, MIT Scheme, Guile)."
         },
         {
             "name": "rktjmp/hotpot.nvim",
@@ -3938,12 +3671,12 @@
             "description": "Git integration: signs, hunk actions, blame, etc."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.diff",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-diff.md",
-            "description": "Module of `mini.nvim` to interactively visualize difference between buffer text and its reference. Provides toggleable detailed overview in text area, builtin apply/reset/textobject/goto mappings, and more."
+            "description": "Module of `mini.nvim` to interactively visualize difference between buffer text and its reference. Provides toggleable detailed overview in text area, built-in apply/reset/textobject/goto mappings, and more."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.git",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-git.md",
             "description": "Module of `mini.nvim` for enhanced Git integration with current Neovim process. Implements tracking of Git related data, `:Git` user command, and various helpers to explore Git history."
         },
@@ -3960,7 +3693,7 @@
         {
             "name": "ruifm/gitlinker.nvim",
             "url": "https://github.com/ruifm/gitlinker.nvim",
-            "description": "Generate shareable file permalinks for several git hosts. Inspired by tpope/vimfugitive's :GBrowse."
+            "description": "Generate shareable file permalinks for several git hosts. Inspired by tpope/vim-fugitive's :GBrowse."
         },
         {
             "name": "linrongbin16/gitlinker.nvim",
@@ -3985,7 +3718,7 @@
         {
             "name": "AckslD/nvim-gfold.lua",
             "url": "https://github.com/AckslD/nvim-gfold.lua",
-            "description": "Plugin using [gfold"
+            "description": "Plugin using [gfold](https://github.com/nickgerace/gfold) to switch repo and have statusline component."
         },
         {
             "name": "akinsho/git-conflict.nvim",
@@ -4015,7 +3748,7 @@
         {
             "name": "2KAbhishek/co-author.nvim",
             "url": "https://github.com/2KAbhishek/co-author.nvim",
-            "description": "Quickly add coauthors to commits."
+            "description": "Quickly add co-authors to commits."
         },
         {
             "name": "isak102/telescope-git-file-history.nvim",
@@ -4030,10 +3763,8 @@
         {
             "name": "SuperBo/fugit2.nvim",
             "url": "https://github.com/SuperBo/fugit2.nvim",
-            "description": "Git GUI powered by [libgit2"
-        }
-    ],
-    "GitHub": [
+            "description": "Git GUI powered by [libgit2](https://libgit2.org)."
+        },
         {
             "name": "pwntester/octo.nvim",
             "url": "https://github.com/pwntester/octo.nvim",
@@ -4057,7 +3788,7 @@
         {
             "name": "rawnly/gist.nvim",
             "url": "https://github.com/rawnly/gist.nvim",
-            "description": "Create a GitHub Gist from the current file (powered by gh"
+            "description": "Create a GitHub Gist from the current file (powered by gh)."
         }
     ],
     "Motion": [
@@ -4069,17 +3800,17 @@
         {
             "name": "smoka7/hop.nvim",
             "url": "https://github.com/smoka7/hop.nvim",
-            "description": "Hop is an EasyMotionlike plugin allowing you to jump anywhere in a document with as few keystrokes as possible."
+            "description": "Hop is an EasyMotion-like plugin allowing you to jump anywhere in a document with as few keystrokes as possible."
         },
         {
             "name": "ggandor/lightspeed.nvim",
             "url": "https://github.com/ggandor/lightspeed.nvim",
-            "description": "A Sneaklike plugin offering unparalleled navigation speed via aheadoftime displayed labels, that eliminate the pause between entering the search pattern and selecting the target."
+            "description": "A Sneak-like plugin offering unparalleled navigation speed via ahead-of-time displayed labels, that eliminate the pause between entering the search pattern and selecting the target."
         },
         {
             "name": "ggandor/leap.nvim",
             "url": "https://github.com/ggandor/leap.nvim",
-            "description": "A refined successor of Lightspeed, aiming to establish a widely accepted standard interface extension for moving around in Vimlike editors."
+            "description": "A refined successor of Lightspeed, aiming to establish a widely accepted standard interface extension for moving around in Vim-like editors."
         },
         {
             "name": "ggandor/flit.nvim",
@@ -4089,7 +3820,7 @@
         {
             "name": "ggandor/leap-spooky.nvim",
             "url": "https://github.com/ggandor/leap-spooky.nvim",
-            "description": "Spooky (Leap"
+            "description": "Spooky (Leap) actions at a distance."
         },
         {
             "name": "rasulomaroff/telepath.nvim",
@@ -4102,29 +3833,29 @@
             "description": "Navigate your code with search labels, enhanced character motions and Treesitter integration."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.jump",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-jump.md",
             "description": "Module of `mini.nvim` for smarter jumping to a single character."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.jump2d",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-jump2d.md",
-            "description": "Module of `mini.nvim` for smarter jumping within visible lines via iterative label filtering. Supports custom jump targets (spots"
+            "description": "Module of `mini.nvim` for smarter jumping within visible lines via iterative label filtering. Supports custom jump targets (spots), labels, hooks, allowed windows and lines, and more."
         },
         {
             "name": "rlane/pounce.nvim",
             "url": "https://github.com/rlane/pounce.nvim",
-            "description": "An EasyMotionlike plugin for quick cursor movement using fuzzy search."
+            "description": "An EasyMotion-like plugin for quick cursor movement using fuzzy search."
         },
         {
             "name": "xiaoshihou514/squirrel.nvim",
             "url": "https://github.com/xiaoshihou514/squirrel.nvim",
-            "description": "Quickly jump between treesitter nodes."
+            "description": "Quickly jump between tree-sitter nodes."
         },
         {
             "name": "gen740/SmoothCursor.nvim",
             "url": "https://github.com/gen740/SmoothCursor.nvim",
-            "description": "Add fancy subcursor to signcolumn to show your scroll or jump direction."
+            "description": "Add fancy sub-cursor to signcolumn to show your scroll or jump direction."
         },
         {
             "name": "edluffy/specs.nvim",
@@ -4154,10 +3885,10 @@
         {
             "name": "cbochs/portal.nvim",
             "url": "https://github.com/cbochs/portal.nvim",
-            "description": "Build upon and enhance existing jumplist motions (i.e. `<ci>` and `<co>`"
+            "description": "Build upon and enhance existing jumplist motions (i.e. `<c-i>` and `<c-o>`)."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.bracketed",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-bracketed.md",
             "description": "Module of `mini.nvim` to go forward/backward with square brackets."
         },
@@ -4174,7 +3905,7 @@
         {
             "name": "gsuuon/tshjkl.nvim",
             "url": "https://github.com/gsuuon/tshjkl.nvim",
-            "description": "Toggle to navigate and select treesitter nodes with hjkl."
+            "description": "Toggle to navigate and select tree-sitter nodes with hjkl."
         },
         {
             "name": "backdround/neowords.nvim",
@@ -4190,9 +3921,7 @@
             "name": "Mr-LLLLL/treesitter-outer",
             "url": "https://github.com/Mr-LLLLL/treesitter-outer",
             "description": "Jump to outer node with smart."
-        }
-    ],
-    "Treesitter Based": [
+        },
         {
             "name": "mfussenegger/nvim-treehopper",
             "url": "https://github.com/mfussenegger/nvim-treehopper",
@@ -4206,7 +3935,7 @@
         {
             "name": "drybalka/tree-climber.nvim",
             "url": "https://github.com/drybalka/tree-climber.nvim",
-            "description": "Easy navigation around the Treesitter's tree that works in multilanguage files and in normal mode."
+            "description": "Easy navigation around the Treesitter's tree that works in multi-language files and in normal mode."
         },
         {
             "name": "atusy/treemonkey.nvim",
@@ -4221,14 +3950,14 @@
             "description": "Neovim plugin that shows a popup with possible keybindings of the command you started typing."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.clue",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-clue.md",
-            "description": "Module of `mini.nvim` to show next key clues. Has optin triggers, shows next key information after customizable delay, allows hydralike submodes, and more."
+            "description": "Module of `mini.nvim` to show next key clues. Has opt-in triggers, shows next key information after customizable delay, allows hydra-like submodes, and more."
         },
         {
             "name": "mrjones2014/legendary.nvim",
             "url": "https://github.com/mrjones2014/legendary.nvim",
-            "description": "Define your keymaps, commands, and autocommands as simple Lua tables, and create a legend for them at the same time (like VS Code's Command Palette"
+            "description": "Define your keymaps, commands, and autocommands as simple Lua tables, and create a legend for them at the same time (like VS Code's Command Palette), integrates with `which-key.nvim`."
         },
         {
             "name": "Iron-E/nvim-cartographer",
@@ -4238,7 +3967,7 @@
         {
             "name": "b0o/mapx.nvim",
             "url": "https://github.com/b0o/mapx.nvim",
-            "description": "A simpler key mapping API that mimics Neovim's `:map`family of commands. Integrates with whichkey.nvim."
+            "description": "A simpler key mapping API that mimics Neovim's `:map`-family of commands. Integrates with which-key.nvim."
         },
         {
             "name": "LionC/nest.nvim",
@@ -4248,7 +3977,7 @@
         {
             "name": "LinArcX/telescope-command-palette.nvim",
             "url": "https://github.com/LinArcX/telescope-command-palette.nvim",
-            "description": "Lua plugin to create keybindings and watch them with telescope."
+            "description": "Lua plugin to create key-bindings and watch them with telescope."
         },
         {
             "name": "slugbyte/unruly-worker.nvim",
@@ -4278,22 +4007,22 @@
         {
             "name": "Nexmean/caskey.nvim",
             "url": "https://github.com/Nexmean/caskey.nvim",
-            "description": "Utility to keymappings configuration using declarative cascading trees, optionally integrates with `whichkey`."
+            "description": "Utility to keymappings configuration using declarative cascading trees, optionally integrates with `which-key`."
         },
         {
             "name": "Wansmer/langmapper.nvim",
             "url": "https://github.com/Wansmer/langmapper.nvim",
-            "description": "Auto translating your mappings for nonEnglish input methods."
+            "description": "Auto translating your mappings for non-English input methods."
         },
         {
             "name": "tris203/hawtkeys.nvim",
             "url": "https://github.com/tris203/hawtkeys.nvim",
-            "description": "Suggest new easytohit keymaps and find issues with your current keymap configurations."
+            "description": "Suggest new easy-to-hit keymaps and find issues with your current keymap configurations."
         },
         {
             "name": "mawkler/demicolon.nvim",
             "url": "https://github.com/mawkler/demicolon.nvim",
-            "description": "Use `;` and `,` keys to also repeat jumps to diagnostics (e.g. `]d`"
+            "description": "Use `;` and `,` keys to also repeat jumps to diagnostics (e.g. `]d`) and to [nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects?tab=readme-ov-file#text-objects-move) (e.g. `]f`), in addition to repeating `t`/`T`/`f`/`F`."
         },
         {
             "name": "debugloop/layers.nvim",
@@ -4333,9 +4062,7 @@
             "name": "rlychrisg/keepcursor.nvim",
             "url": "https://github.com/rlychrisg/keepcursor.nvim",
             "description": "A collection of functions to control how the screen is positioned around the cursor."
-        }
-    ],
-    "Scrollbar": [
+        },
         {
             "name": "Xuyuanp/scrollbar.nvim",
             "url": "https://github.com/Xuyuanp/scrollbar.nvim",
@@ -4352,7 +4079,7 @@
             "description": "Extensible scrollbar that shows diagnostics and search results."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.map",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-map.md",
             "description": "Module of `mini.nvim` to show floating window with buffer text overview, scrollbar, and highlights."
         },
@@ -4384,9 +4111,9 @@
             "description": "Ultimate smart pairs written by Lua."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.pairs",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-pairs.md",
-            "description": "Module of `mini.nvim` for autopairs which has minimal defaults and functionality to do perkey mapping."
+            "description": "Module of `mini.nvim` for autopairs which has minimal defaults and functionality to do per-key mapping."
         },
         {
             "name": "m4xshen/autoclose.nvim",
@@ -4411,17 +4138,17 @@
         {
             "name": "HiPhish/rainbow-delimiters.nvim",
             "url": "https://github.com/HiPhish/rainbow-delimiters.nvim",
-            "description": "Rainbow delimiters with Treesitter."
+            "description": "Rainbow delimiters with Tree-sitter."
         },
         {
             "name": "AckslD/nvim-trevJ.lua",
             "url": "https://github.com/AckslD/nvim-trevJ.lua",
-            "description": "Does the opposite of joinline (J"
+            "description": "Does the opposite of join-line (J) for arguments, powered by Tree-sitter."
         },
         {
             "name": "pocco81/true-zen.nvim",
             "url": "https://github.com/pocco81/true-zen.nvim",
-            "description": "Clean and elegant distractionfree writing."
+            "description": "Clean and elegant distraction-free writing."
         },
         {
             "name": "pocco81/high-str.nvim",
@@ -4436,7 +4163,7 @@
         {
             "name": "okuuva/auto-save.nvim",
             "url": "https://github.com/okuuva/auto-save.nvim",
-            "description": "Automatically saves your work as often as needed and as seldom as possible. Customizable with smart defaults. Maintained fork of Pocco81/autosave.nvim."
+            "description": "Automatically saves your work as often as needed and as seldom as possible. Customizable with smart defaults. Maintained fork of Pocco81/auto-save.nvim."
         },
         {
             "name": "tmillr/sos.nvim",
@@ -4446,7 +4173,7 @@
         {
             "name": "folke/zen-mode.nvim",
             "url": "https://github.com/folke/zen-mode.nvim",
-            "description": "Distractionfree coding."
+            "description": "Distraction-free coding."
         },
         {
             "name": "andersevenrud/nvim_context_vt",
@@ -4461,12 +4188,12 @@
         {
             "name": "mizlan/iswap.nvim",
             "url": "https://github.com/mizlan/iswap.nvim",
-            "description": "Interactively select and swap function arguments, list elements, and more. Powered by treesitter."
+            "description": "Interactively select and swap function arguments, list elements, and more. Powered by tree-sitter."
         },
         {
             "name": "Wansmer/sibling-swap.nvim",
             "url": "https://github.com/Wansmer/sibling-swap.nvim",
-            "description": "Different way to swapping arguments and other siblings with TreeSitter."
+            "description": "Different way to swapping arguments and other siblings with Tree-Sitter."
         },
         {
             "name": "Wansmer/binary-swap.nvim",
@@ -4476,7 +4203,7 @@
         {
             "name": "nacro90/numb.nvim",
             "url": "https://github.com/nacro90/numb.nvim",
-            "description": "Peek lines in a nonobtrusive way."
+            "description": "Peek lines in a non-obtrusive way."
         },
         {
             "name": "ethanholz/nvim-lastplace",
@@ -4499,7 +4226,7 @@
             "description": "Switching and restoring input method automatically depends on Neovim's edit mode."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.trailspace",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-trailspace.md",
             "description": "Module of `mini.nvim` for automatic highlighting of trailing whitespace with functionality to remove it."
         },
@@ -4511,7 +4238,7 @@
         {
             "name": "filipdutescu/renamer.nvim",
             "url": "https://github.com/filipdutescu/renamer.nvim",
-            "description": "VS Codelike renaming UI, written in Lua."
+            "description": "VS Code-like renaming UI, written in Lua."
         },
         {
             "name": "gbprod/cutlass.nvim",
@@ -4534,7 +4261,7 @@
             "description": "Text case changes via keybindings and custom substitute command with Telescope and LSP support."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.operators",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-operators.md",
             "description": "Module of `mini.nvim` with various text edit operators: replace, exchange, multiply, sort, evaluate."
         },
@@ -4546,7 +4273,7 @@
         {
             "name": "sQVe/sort.nvim",
             "url": "https://github.com/sQVe/sort.nvim",
-            "description": "Sorting plugin that intelligently supports linewise and delimiter sorting."
+            "description": "Sorting plugin that intelligently supports line-wise and delimiter sorting."
         },
         {
             "name": "booperlv/nvim-gomove",
@@ -4561,7 +4288,7 @@
         {
             "name": "hinell/move.nvim",
             "url": "https://github.com/hinell/move.nvim",
-            "description": "Move chunks of text around; fork of [fedepujol/move.nvim"
+            "description": "Move chunks of text around; fork of [fedepujol/move.nvim](https://github.com/fedepujol/move.nvim)."
         },
         {
             "name": "willothy/moveline.nvim",
@@ -4569,9 +4296,9 @@
             "description": "Move lines and blocks up and down easily, with indenting handled automatically as you move. Written in Rust."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.move",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-move.md",
-            "description": "Module of `mini.nvim` to move any selection (charwise, linewise, blockwise, current line in Normal mode"
+            "description": "Module of `mini.nvim` to move any selection (charwise, linewise, blockwise, current line in Normal mode) in any direction. Handles both `v:count` and undo history."
         },
         {
             "name": "anuvyklack/pretty-fold.nvim",
@@ -4589,14 +4316,14 @@
             "description": "Neovim plugin that prevent cursor from moving when using shift and filter actions."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.ai",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-ai.md",
-            "description": "Module of `mini.nvim` for extending and creating `a`/`i` textobjects. It enhances some builtin textobjects, creates extensive set of new ones (like `a*`, `a<Space>`, `a?`, and more"
+            "description": "Module of `mini.nvim` for extending and creating `a`/`i` textobjects. It enhances some builtin textobjects, creates extensive set of new ones (like `a*`, `a<Space>`, `a?`, and more), and allows user to create their own (via Lua patterns or functions). Supports dot-repeat, different search methods, consecutive application, and more."
         },
         {
             "name": "Wansmer/treesj",
             "url": "https://github.com/Wansmer/treesj",
-            "description": "Splitting/joining blocks of code like arrays, hashes, statements, objects, dictionaries, etc. Using TreeSitter. Inspired by greatest splitjoin.vim."
+            "description": "Splitting/joining blocks of code like arrays, hashes, statements, objects, dictionaries, etc. Using Tree-Sitter. Inspired by greatest splitjoin.vim."
         },
         {
             "name": "bennypowers/splitjoin.nvim",
@@ -4604,7 +4331,7 @@
             "description": "Split and join various syntax structures."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.splitjoin",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-splitjoin.md",
             "description": "Module of `mini.nvim` to split and join arguments. Has customizable pre and post hooks. Works inside comments."
         },
@@ -4616,7 +4343,7 @@
         {
             "name": "debugloop/telescope-undo.nvim",
             "url": "https://github.com/debugloop/telescope-undo.nvim",
-            "description": "A telescope extension to visualize your undo tree and fuzzysearch changes in it."
+            "description": "A telescope extension to visualize your undo tree and fuzzy-search changes in it."
         },
         {
             "name": "chrisgrieser/nvim-various-textobjs",
@@ -4626,7 +4353,7 @@
         {
             "name": "XXiaoA/ns-textobject.nvim",
             "url": "https://github.com/XXiaoA/ns-textobject.nvim",
-            "description": "Awesome textobject plugin works with nvimsurround."
+            "description": "Awesome textobject plugin works with nvim-surround."
         },
         {
             "name": "~nedia/auto-save.nvim",
@@ -4634,7 +4361,7 @@
             "description": "Extremely simple auto saving on `InsertLeave` & `TextChanged`. Based on Pocco81/AutoSave but lighter."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.basics",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-basics.md",
             "description": "Module of `mini.nvim` with customizable configuration presets for common options, mappings, and autocommands."
         },
@@ -4656,7 +4383,7 @@
         {
             "name": "CKolkey/ts-node-action",
             "url": "https://github.com/CKolkey/ts-node-action",
-            "description": "A framework for executing functional transformations on Treesitter nodes  Has a lot of builtin actions for transforming text."
+            "description": "A framework for executing functional transformations on Tree-sitter nodes - Has a lot of built-in actions for transforming text."
         },
         {
             "name": "tomiis4/hypersonic.nvim",
@@ -4666,12 +4393,12 @@
         {
             "name": "00sapo/visual.nvim",
             "url": "https://github.com/00sapo/visual.nvim",
-            "description": "Provides keybindings for creating a Kakoune/Helixlike experience: first select and then choose the editing command."
+            "description": "Provides keybindings for creating a Kakoune/Helix-like experience: first select and then choose the editing command."
         },
         {
             "name": "chrisgrieser/nvim-puppeteer",
             "url": "https://github.com/chrisgrieser/nvim-puppeteer",
-            "description": "Automatically convert strings to fstrings or template strings and back."
+            "description": "Automatically convert strings to f-strings or template strings and back."
         },
         {
             "name": "nat-418/boole.nvim",
@@ -4681,12 +4408,12 @@
         {
             "name": "cshuaimin/ssr.nvim",
             "url": "https://github.com/cshuaimin/ssr.nvim",
-            "description": "Treesitterbased structural search and replace."
+            "description": "Treesitter-based structural search and replace."
         },
         {
             "name": "Jxstxs/conceal.nvim",
             "url": "https://github.com/Jxstxs/conceal.nvim",
-            "description": "Use Treesitter to conceal common boilerplate code."
+            "description": "Use Tree-sitter to conceal common boilerplate code."
         },
         {
             "name": "hiberabyss/bzlops.vim",
@@ -4701,19 +4428,17 @@
         {
             "name": "ptdewey/yankbank-nvim",
             "url": "https://github.com/ptdewey/yankbank-nvim",
-            "description": "Enable streamlined access to recent yanks and deletions in a quickaccess popup menu."
+            "description": "Enable streamlined access to recent yanks and deletions in a quick-access popup menu."
         },
         {
             "name": "OXY2DEV/foldtext.nvim",
             "url": "https://github.com/OXY2DEV/foldtext.nvim",
             "description": "Dynamic & stylized foldtext."
-        }
-    ],
-    "Comment": [
+        },
         {
             "name": "numToStr/Comment.nvim",
             "url": "https://github.com/numToStr/Comment.nvim",
-            "description": "Smart and Powerful comment plugin. Supports commentstring, motions, dotrepeat and more."
+            "description": "Smart and Powerful comment plugin. Supports commentstring, motions, dot-repeat and more."
         },
         {
             "name": "b3nj5m1n/kommentary",
@@ -4733,7 +4458,7 @@
         {
             "name": "terrortylor/nvim-comment",
             "url": "https://github.com/terrortylor/nvim-comment",
-            "description": "Toggle comments using the builtin commentstring option."
+            "description": "Toggle comments using the built-in commentstring option."
         },
         {
             "name": "winston0410/commented.nvim",
@@ -4751,9 +4476,9 @@
             "description": "A better annotation generator. Supports multiple languages and annotation conventions."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.comment",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-comment.md",
-            "description": "Module of `mini.nvim` for perline commenting. Fully supports dotrepeat."
+            "description": "Module of `mini.nvim` for per-line commenting. Fully supports dot-repeat."
         },
         {
             "name": "LudoPinelli/comment-box.nvim",
@@ -4795,7 +4520,7 @@
         {
             "name": "sbdchd/neoformat",
             "url": "https://github.com/sbdchd/neoformat",
-            "description": "A (Neo"
+            "description": "A (Neo)vim plugin for formatting code."
         },
         {
             "name": "cappyzawa/trim.nvim",
@@ -4813,9 +4538,9 @@
             "description": "Prettier integration."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.align",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-align.md",
-            "description": "Module of `mini.nvim` for aligning text interactively (with or without instant preview"
+            "description": "Module of `mini.nvim` for aligning text interactively (with or without instant preview)."
         },
         {
             "name": "emileferreira/nvim-strict",
@@ -4825,7 +4550,7 @@
         {
             "name": "~nedia/auto-format.nvim",
             "url": "https://git.sr.ht/~nedia/auto-format.nvim",
-            "description": "Does no formatting by itself, but sets up an autocmd to format on save, preferring nullls over LSP client formatting."
+            "description": "Does no formatting by itself, but sets up an autocmd to format on save, preferring null-ls over LSP client formatting."
         },
         {
             "name": "tenxsoydev/tabs-vs-spaces.nvim",
@@ -4845,7 +4570,7 @@
         {
             "name": "elentok/format-on-save.nvim",
             "url": "https://github.com/elentok/format-on-save.nvim",
-            "description": "A synchronous formatter that combines LSP and nonLSP formatting (e.g. shfmt, stylua, prettier"
+            "description": "A synchronous formatter that combines LSP and non-LSP formatting (e.g. shfmt, stylua, prettier), focused specifically on format-on-save."
         },
         {
             "name": "stevearc/conform.nvim",
@@ -4856,9 +4581,7 @@
             "name": "nvimdev/guard.nvim",
             "url": "https://github.com/nvimdev/guard.nvim",
             "description": "Minimalist async formatting and linting plugin."
-        }
-    ],
-    "Indent": [
+        },
         {
             "name": "nvimdev/indentmini.nvim",
             "url": "https://github.com/nvimdev/indentmini.nvim",
@@ -4875,7 +4598,7 @@
             "description": "Indentation guides using the builtin variables."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.indentscope",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-indentscope.md",
             "description": "Module of `mini.nvim` for visualizing and operating on indent scope. Supports customization of debounce delay, animation style, and different granularity of options for scope computing algorithm."
         },
@@ -4897,7 +4620,7 @@
         {
             "name": "shellRaining/hlchunk.nvim",
             "url": "https://github.com/shellRaining/hlchunk.nvim",
-            "description": "A Lua implementation of `nvimhlchunk`, contains more features, such as highlight `{}` chunk, indent line, space blank etc."
+            "description": "A Lua implementation of `nvim-hlchunk`, contains more features, such as highlight `{}` chunk, indent line, space blank etc."
         },
         {
             "name": "VidocqH/auto-indent.nvim",
@@ -4919,7 +4642,7 @@
         {
             "name": "notomo/cmdbuf.nvim",
             "url": "https://github.com/notomo/cmdbuf.nvim",
-            "description": "Alternative commandlinewindow plugin."
+            "description": "Alternative command-line-window plugin."
         },
         {
             "name": "gelguy/wilder.nvim",
@@ -4934,14 +4657,14 @@
             "description": "A small automated session manager."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.sessions",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-sessions.md",
-            "description": "Module of `mini.nvim` for session management (read, write, delete"
+            "description": "Module of `mini.nvim` for session management (read, write, delete)."
         },
         {
             "name": "gennaro-tedesco/nvim-possession",
             "url": "https://github.com/gennaro-tedesco/nvim-possession",
-            "description": "The nononsense session manager."
+            "description": "The no-nonsense session manager."
         },
         {
             "name": "olimorris/persisted.nvim",
@@ -4961,7 +4684,7 @@
         {
             "name": "niuiic/multiple-session.nvim",
             "url": "https://github.com/niuiic/multiple-session.nvim",
-            "description": "Provides multisession management capabilities."
+            "description": "Provides multi-session management capabilities."
         },
         {
             "name": "RutaTang/spectacle.nvim",
@@ -5025,7 +4748,7 @@
         {
             "name": "nvim-focus/focus.nvim",
             "url": "https://github.com/nvim-focus/focus.nvim",
-            "description": "AutoFocusing and AutoResizing Splits/Windows written in Lua! Vim splits on steroids."
+            "description": "Auto-Focusing and Auto-Resizing Splits/Windows written in Lua! Vim splits on steroids."
         },
         {
             "name": "anuvyklack/windows.nvim",
@@ -5048,9 +4771,9 @@
             "description": "Delete Neovim buffers without losing your window layout."
         },
         {
-            "name": "echasnovski/mini.nvim#mini.bufremove",
+            "name": "echasnovski/mini.nvim",
             "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-bufremove.md",
-            "description": "Module of `mini.nvim` for buffer removing (unshow, delete, wipeout"
+            "description": "Module of `mini.nvim` for buffer removing (unshow, delete, wipeout) while saving window layout."
         },
         {
             "name": "jyscao/ventana.nvim",
@@ -5066,9 +4789,7 @@
             "name": "altermo/nwm",
             "url": "https://github.com/altermo/nwm",
             "description": "X11 window manager."
-        }
-    ],
-    "Tmux": [
+        },
         {
             "name": "aserowy/tmux.nvim",
             "url": "https://github.com/aserowy/tmux.nvim",
@@ -5114,12 +4835,12 @@
         {
             "name": "ThePrimeagen/vim-be-good",
             "url": "https://github.com/ThePrimeagen/vim-be-good",
-            "description": "Vimbegood is a Neovim plugin designed to make you better at Vim Movements."
+            "description": "Vim-be-good is a Neovim plugin designed to make you better at Vim Movements."
         },
         {
             "name": "alec-gibson/nvim-tetris",
             "url": "https://github.com/alec-gibson/nvim-tetris",
-            "description": "Bringing emacs' greatest feature to Neovim  Tetris!."
+            "description": "Bringing emacs' greatest feature to Neovim - Tetris!."
         },
         {
             "name": "seandewar/nvimesweeper",
@@ -5150,9 +4871,7 @@
             "name": "jim-fx/sudoku.nvim",
             "url": "https://github.com/jim-fx/sudoku.nvim",
             "description": "Classic sudoku puzzle."
-        }
-    ],
-    "Competitive Programming": [
+        },
         {
             "name": "p00f/cphelper.nvim",
             "url": "https://github.com/p00f/cphelper.nvim",
@@ -5205,7 +4924,7 @@
         {
             "name": "SpaceVim/SpaceVim",
             "url": "https://spacevim.org",
-            "description": "A communitydriven modular Vim/Neovim distribution, like spacemacs but for Vim/Neovim."
+            "description": "A community-driven modular Vim/Neovim distribution, like spacemacs but for Vim/Neovim."
         },
         {
             "name": "CosmicNvim/CosmicNvim",
@@ -5215,17 +4934,17 @@
         {
             "name": "artart222/CodeArt",
             "url": "https://github.com/artart222/CodeArt",
-            "description": "A fast generalpurpose IDE written entirely in Lua with an installer for Linux/Windows/macOS and built in `:CodeArtUpdate` command for updating it."
+            "description": "A fast general-purpose IDE written entirely in Lua with an installer for Linux/Windows/macOS and built in `:CodeArtUpdate` command for updating it."
         },
         {
             "name": "LazyVim/LazyVim",
             "url": "https://github.com/LazyVim/LazyVim",
-            "description": "Fullfledged IDE powered by **lazy.nvim** to make it easy to customize and extend your config."
+            "description": "Full-fledged IDE powered by **lazy.nvim** to make it easy to customize and extend your config."
         },
         {
             "name": "legobeat/l7-devenv",
             "url": "https://github.com/legobeat/l7-devenv",
-            "description": "Securityfocused IDE with a hackable (in the right way"
+            "description": "Security-focused IDE with a hackable (in the right way) framework based on Neovim and shell."
         },
         {
             "name": "crispybaccoon/chaivim",
@@ -5235,12 +4954,12 @@
         {
             "name": "NTBBloodbath/doom-nvim",
             "url": "https://github.com/NTBBloodbath/doom-nvim",
-            "description": "Port of the doomemacs framework, its goal is to add useful functions to Neovim to start working in a stable and efficient development environment without spending a lot of time configuring everything."
+            "description": "Port of the doom-emacs framework, its goal is to add useful functions to Neovim to start working in a stable and efficient development environment without spending a lot of time configuring everything."
         },
         {
             "name": "crivotz/nv-ide",
             "url": "https://github.com/crivotz/nv-ide",
-            "description": "Neovim custom configuration, oriented for full stack developers (rails, ruby, php, html, css, SCSS, JavaScript"
+            "description": "Neovim custom configuration, oriented for full stack developers (rails, ruby, php, html, css, SCSS, JavaScript)."
         },
         {
             "name": "LunarVim/LunarVim",
@@ -5250,12 +4969,12 @@
         {
             "name": "hackorum/VapourNvim",
             "url": "https://github.com/hackorum/VapourNvim",
-            "description": "A Neovim config for THE ULTIMATE Vim IDElike experience."
+            "description": "A Neovim config for THE ULTIMATE Vim IDE-like experience."
         },
         {
             "name": "vi-tality/neovitality",
             "url": "https://github.com/vi-tality/neovitality",
-            "description": "A fullfeatured Neovim distribution, packaged with Nix Flake for easy installation and reproducibility."
+            "description": "A full-featured Neovim distribution, packaged with Nix Flake for easy installation and reproducibility."
         },
         {
             "name": "siduck76/NvChad",
@@ -5270,7 +4989,7 @@
         {
             "name": "cstsunfu/.sea.nvim",
             "url": "https://github.com/cstsunfu/.sea.nvim",
-            "description": "A modular Neovim configuration with beautiful UI and some useful features(Pomodoro Clock, Window Number"
+            "description": "A modular Neovim configuration with beautiful UI and some useful features(Pomodoro Clock, Window Number)."
         },
         {
             "name": "shaeinst/roshnivim",
@@ -5280,7 +4999,7 @@
         {
             "name": "AstroNvim/AstroNvim",
             "url": "https://github.com/AstroNvim/AstroNvim",
-            "description": "AstroNvim is an aesthetic and featurerich Neovim config that is extensible and easy to use with a great set of plugins."
+            "description": "AstroNvim is an aesthetic and feature-rich Neovim config that is extensible and easy to use with a great set of plugins."
         },
         {
             "name": "shaunsingh/nyoom.nvim",
@@ -5310,7 +5029,7 @@
         {
             "name": "dam9000/kickstart-modular.nvim",
             "url": "https://github.com/dam9000/kickstart-modular.nvim",
-            "description": "This is a fork of nvimlua/kickstart.nvim that moves from a single file to a multi file configuration."
+            "description": "This is a fork of nvim-lua/kickstart.nvim that moves from a single file to a multi file configuration."
         },
         {
             "name": "cunderw/nvim",
@@ -5335,7 +5054,7 @@
         {
             "name": "linrongbin16/lin.nvim",
             "url": "https://github.com/linrongbin16/lin.nvim",
-            "description": "A highly configured Neovim distribution integrated with tons of utilities for development, inspired by spf13vim."
+            "description": "A highly configured Neovim distribution integrated with tons of utilities for development, inspired by spf13-vim."
         },
         {
             "name": "doctorfree/nvim-lazyman",
@@ -5355,7 +5074,7 @@
         {
             "name": "mrcjkb/kickstart-nix.nvim",
             "url": "https://github.com/mrcjkb/kickstart-nix.nvim",
-            "description": "A simple [Nix flake"
+            "description": "A simple [Nix flake](https://wiki.nixos.org/wiki/Flakes) template repo for Neovim derivations, with the goal of simplifying the migration from existing Neovim configurations."
         },
         {
             "name": "drybalka/clean.nvim",
@@ -5365,7 +5084,7 @@
         {
             "name": "StratOS-Linux/StratVIM",
             "url": "https://github.com/StratOS-Linux/StratVIM",
-            "description": "A fullfledged Neovim distribution included by default in [StratOS"
+            "description": "A full-fledged Neovim distribution included by default in [StratOS](https://github.com/StratOS-Linux), an upcoming Arch-based Linux distro."
         },
         {
             "name": "Shaobin-Jiang/IceNvim",
@@ -5375,10 +5094,10 @@
         {
             "name": "ayamir/nvimdots",
             "url": "https://github.com/ayamir/nvimdots",
-            "description": "A wellconfigured and structured configuration with NixOS support."
+            "description": "A well-configured and structured configuration with NixOS support."
         }
     ],
-    "Version Manager": [
+    "External": [
         {
             "name": "MordechaiHadad/bob",
             "url": "https://github.com/MordechaiHadad/bob",
@@ -5393,9 +5112,7 @@
             "name": "shohi/neva",
             "url": "https://github.com/shohi/neva",
             "description": "A Neovim version manager written in Lua."
-        }
-    ],
-    "Boilerplate": [
+        },
         {
             "name": "gennaro-tedesco/boilit",
             "url": "https://github.com/gennaro-tedesco/boilit",
@@ -5410,18 +5127,16 @@
             "name": "ellisonleao/nvim-plugin-template",
             "url": "https://github.com/ellisonleao/nvim-plugin-template",
             "description": "Another neovim plugin template, using GitHub's template feature."
-        }
-    ],
-    "OS-specific": [
+        },
         {
             "name": "chrisgrieser/alfred-neovim-utilities",
             "url": "https://github.com/chrisgrieser/alfred-neovim-utilities",
-            "description": "Search Neovim plugins and online `:help` via Alfred (macOS"
+            "description": "Search Neovim plugins and online `:help` via Alfred (macOS)."
         },
         {
             "name": "massix/termux.nvim",
             "url": "https://github.com/massix/termux.nvim",
-            "description": "Interact with Termux APIs, useful to gather various information about your Android phone to display in the statusline (e.g. battery level"
+            "description": "Interact with Termux APIs, useful to gather various information about your Android phone to display in the statusline (e.g. battery level)."
         },
         {
             "name": "m15a/flake-awesome-neovim-plugins",
@@ -5443,41 +5158,41 @@
     ],
     "Vim": [
         {
-            "name": "Vimawesome",
+            "name": "https://vimawesome.com/",
             "url": "https://vimawesome.com/",
-            "description": "Showcases various plugins for Vim and has a [neovim tag"
+            "description": "Showcases various plugins for Vim and has a [neovim tag](https://vimawesome.com/?q=tag:neovim) for other plugins targeting Neovim."
         },
         {
-            "name": "awesome-vim",
+            "name": "akrawchyk/awesome-vim",
             "url": "https://github.com/akrawchyk/awesome-vim#tools",
             "description": "Short list of Vim plugins and helpful guides."
         },
         {
-            "name": "vim-plugin-list",
+            "name": "altermo/vim-plugin-list",
             "url": "https://github.com/altermo/vim-plugin-list",
             "description": "List of Vim and Neovim plugins."
         }
     ],
     "Resource": [
         {
-            "name": "Neovimcraft",
+            "name": "https://neovimcraft.com",
             "url": "https://neovimcraft.com",
             "description": "A site dedicated to searching specific plugins and guides for building plugins in Lua."
         },
         {
-            "name": "Dotfyle",
+            "name": "https://dotfyle.com",
             "url": "https://dotfyle.com",
             "description": "Dotfyle is a site for sharing and discovering Neovim configs and plugins."
         },
         {
-            "name": "NeoLand",
+            "name": "https://neoland.dev",
             "url": "https://neoland.dev",
             "description": "A beautifully crafted website for Neovim resources."
         },
         {
-            "name": "Nvim-training",
-            "url": " https://github.com/Weyaaron/nvim-training",
-            "description": "A beginnerfriendly tool for training your 'muscle memory' using small, repeatable tasks."
+            "name": "Weyaaron/nvim-training",
+            "url": "https://github.com/Weyaaron/nvim-training",
+            "description": "A beginner-friendly tool for training your 'muscle memory' using small, repeatable tasks."
         }
     ]
 }

@@ -3,21 +3,19 @@ import os
 
 
 def create_directories(base_dir):
-    # Check;if already exists
-    if os.path.exists(base_dir):
-        print(f"Directory {base_dir} already exists. Exiting.")
-        return "exists"
-    """Create the necessary directory structure."""
+    """
+    Create the necessary directory structure for the Nvim configuration.
+    """
     nvim_dir = os.path.join(base_dir, 'nvim')
     lua_dir = os.path.join(nvim_dir, 'lua')
+    plugins_dir = os.path.join(lua_dir, 'plugins')
     
-    os.makedirs(lua_dir, exist_ok=True)
-    os.makedirs(os.path.join(lua_dir, 'plugins'), exist_ok=True)
+    # Create directories
+    os.makedirs(plugins_dir, exist_ok=True)
     
     # Create init.lua in the root nvim directory
     init_lua_path = os.path.join(nvim_dir, 'init.lua')
-    with open(init_lua_path, 'w') as f:
-        f.write('''-- Bootstrap lazy.nvim
+    init_lua_content = '''-- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
   local lazyrepo = "https://github.com/folke/lazy.nvim.git"
@@ -34,9 +32,7 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
--- Make sure to setup `mapleader` and `maplocalleader` before
--- loading lazy.nvim so that mappings are correct.
--- This is also a good place to setup other settings (vim.opt)
+-- Setup mapleader and maplocalleader
 vim.g.mapleader = " "
 
 -- Setup lazy.nvim
@@ -45,14 +41,12 @@ require("lazy").setup({
     -- import your plugins
     { import = "plugins" },
   },
-  -- Configure any other settings here. See the documentation for more details.
-  -- colorscheme that will be used when installing plugins.
   install = { colorscheme = { "habamax" } },
-  -- automatically check for plugin updates
   checker = { enabled = true },
 })
-''')
-        return "created"
+'''
+    with open(init_lua_path, 'w') as f:
+        f.write(init_lua_content)
 
 def create_plugin_files(selected_plugins, base_dir):
     """Create the plugins.lua file based on the selected plugins."""
@@ -71,14 +65,11 @@ def create_structure(selected_plugins_file):
     base_dir = input("Enter the base directory name for the Nvim configuration: ")
     base_dir = os.path.expanduser(f"~/.config/{base_dir}")
     
-    # Ensure the base directory exists
+    # Create the directory structure
     if not os.path.exists(base_dir):
         os.makedirs(base_dir)
     
-    # Create the directory structure
-    res = create_directories(base_dir)
-    if res == "exists":
-        return
+    create_directories(base_dir)
     
     # Read the selected plugins from JSON
     try:
@@ -91,4 +82,9 @@ def create_structure(selected_plugins_file):
     # Create plugin files
     create_plugin_files(selected_plugins, base_dir)
     print(f"Nvim configuration has been set up in {base_dir}")
+    print("You can now start Nvim to install the selected plugins.")
+    print("Remember to always configure plugins in the plugins.lua file.")
+    print("Happy Vimming!")
 
+# Example usage
+# create_structure('selected_plugins.json')
