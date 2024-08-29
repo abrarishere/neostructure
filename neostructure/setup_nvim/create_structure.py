@@ -1,24 +1,24 @@
 import json
 import os
+import shutil
+
+from rich.console import Console
 
 from neostructure.setup_nvim.get_opts import (get_dependencies,
                                               is_plugin_present,
                                               is_require_setup)
 
+console = Console()
 
-def create_directories(base_dir):
-    """
-    Create the necessary directory structure for the Nvim configuration.
-    """
+
+def create_directories(base_dir, selected_colorscheme=None):
+    """Create the necessary directory structure for the Nvim configuration."""
     nvim_dir = os.path.join(base_dir, "nvim")
     lua_dir = os.path.join(nvim_dir, "lua")
     plugins_dir = os.path.join(lua_dir, "plugins")
 
-    # Create directories
     os.makedirs(plugins_dir, exist_ok=True)
 
-    # Create init.lua in the root nvim directory
-    init_lua_path = os.path.join(nvim_dir, "init.lua")
     init_lua_content = """-- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
@@ -41,74 +41,89 @@ vim.g.mapleader = " "
 
 -- Setup lazy.nvim
 require("lazy").setup({
-  spec = {
-    -- import your plugins
-    { import = "plugins" },
-  },
-  install = { colorscheme = { "habamax" } },
+  spec = { { import = "plugins" } },
+  install = {},
   checker = { enabled = true },
 })
 """
-    with open(init_lua_path, "w") as f:
+
+    if selected_colorscheme:
+        init_lua_content += (
+            f"\n-- Colorscheme setup\nvim.cmd('colorscheme {selected_colorscheme}')\n"
+        )
+
+    with open(os.path.join(nvim_dir, "init.lua"), "w") as f:
         f.write(init_lua_content)
+
+
+def format_dependencies(deps):
+    return "{ " + ", ".join(f"'{dep}'" for dep in deps) + " }" if deps else "{}"
 
 
 def create_plugin_files(selected_plugins, base_dir):
     """Create the plugins.lua file based on the selected plugins."""
     plugins_dir = os.path.join(base_dir, "nvim", "lua", "plugins")
 
-    # Prepare plugin list in Lua format
-    plugin_entries = [f"  {{ '{plugin['name']}' }}" for plugin in selected_plugins]
-    # plugins_lua_content = 'return {\n' + ',\n'.join(plugin_entries) + '\n}'
-    is_opts = [is_plugin_present(plugin["name"]) for plugin in selected_plugins]
-    is_require = [is_require_setup(plugin["name"]) for plugin in selected_plugins]
-    dependencies = [get_dependencies(plugin["name"]) for plugin in selected_plugins]
-    for i, plugin in enumerate(selected_plugins):
-        if is_opts[i]:
-            if is_require[i]:
-                plugin_entries[i] = (
-                    f"  {{ '{plugin['name']}', depends = {dependencies[i]}, config = function() require('{plugin['name']}') end }}"
-                )
-            else:
-                plugin_entries[i] = (
-                    f"  {{ '{plugin['name']}', depends = {dependencies[i]}, opts = {{}} }}"
-                )
-        else:
-            plugin_entries[i] = (
-                f"  {{ '{plugin['name']}', depends = {dependencies[i]} }}"
-            )
+    plugin_entries = []
+
+    for plugin in selected_plugins:
+        deps_lua = format_dependencies(get_dependencies(plugin["name"]))
+        opts = is_plugin_present(plugin["name"])
+        requires = is_require_setup(plugin["name"])
+
+        entry = f"  {{ '{plugin['name']}', dependencies = {deps_lua}"
+        if opts:
+            entry += ", opts = {}"
+        if requires:
+            entry += ", config = function() require('{plugin['name']}') end"
+        entry += " }"
+
+        plugin_entries.append(entry)
+
     plugins_lua_content = "return {\n" + ",\n".join(plugin_entries) + "\n}"
-    plugins_lua_path = os.path.join(plugins_dir, "plugins.lua")
-    with open(plugins_lua_path, "w") as f:
+    with open(os.path.join(plugins_dir, "plugins.lua"), "w") as f:
         f.write(plugins_lua_content)
 
 
 def create_structure(selected_plugins_file):
-    # Prompt the user for the base directory name
-    base_dir = input("Enter the base directory name for the Nvim configuration: ")
-    base_dir = os.path.expanduser(f"~/.config/{base_dir}")
+    """Create the Nvim configuration structure."""
+    base_dir = os.path.expanduser(
+        f"~/.config/{input('Enter the base directory name for the Nvim configuration: ')}"
+    )
+    nvim_dir = os.path.join(base_dir, "nvim")
 
-    # Create the directory structure
-    if not os.path.exists(base_dir):
-        os.makedirs(base_dir)
+    if os.path.exists(nvim_dir):
+        response = input(
+            f"{nvim_dir} already exists. Merge or overwrite? (m/o): "
+        ).lower()
+        if response == "o":
+            shutil.rmtree(nvim_dir, ignore_errors=True)
+            os.makedirs(nvim_dir)
+        elif response != "m":
+            console.print("[red]Invalid response. Exiting...[/red]")
+            return
 
-    create_directories(base_dir)
+    os.makedirs(base_dir, exist_ok=True)
+    selected_colorscheme = input(
+        "Enter the colorscheme (or press Enter to skip): "
+    ).strip()
 
-    # Read the selected plugins from JSON
+    create_directories(base_dir, selected_colorscheme)
+
     try:
         with open(selected_plugins_file, "r") as f:
             selected_plugins = json.load(f)
     except (FileNotFoundError, json.JSONDecodeError) as e:
-        print(f"Error loading JSON file: {e}")
+        console.print(f"[red]Error loading JSON file: {e}[/red]")
         return
 
-    # Create plugin files
     create_plugin_files(selected_plugins, base_dir)
-    print(f"Nvim configuration has been set up in {base_dir}")
-    print("You can now start Nvim to install the selected plugins.")
-    print("Remember to always configure plugins in the plugins.lua file.")
-    print("Happy Vimming!")
 
-
-# Example usage
-# create_structure('selected_plugins.json')
+    console.print(f"[green]Nvim configuration has been set up in {base_dir}[/green]")
+    console.print(
+        "[blue]You can now start Nvim to install the selected plugins.[/blue]"
+    )
+    console.print(
+        "[cyan]Remember to always configure plugins in the plugins.lua file.[/cyan]"
+    )
+    console.print("[yellow]Happy Vimming![/yellow]")

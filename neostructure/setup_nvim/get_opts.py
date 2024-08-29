@@ -1,42 +1,38 @@
 import json
 import os
 
-import requests
-
 SAVE_PATH = os.path.join(os.path.dirname(__file__), "./files/json/single_opt.json")
-URL = "https://raw.githubusercontent.com/abrarishere/neostructure/main/neostructure/markdowns/awesome-neovim.md"
 
 
-def get_file():
-    # Create directories and empty file
-    with open(SAVE_PATH, "w") as f:
-        f.write("")
-    # Get the file content
-    response = requests.get(URL)
-    with open(SAVE_PATH, "w") as f:
-        f.write(response.text)
+def load_data():
+    with open(SAVE_PATH, "r") as f:
+        return json.load(f)
 
 
 def is_plugin_present(plugin_name):
-    with open(SAVE_PATH, "r") as f:
-        data = json.load(f)
+    try:
+        data = load_data()
         if plugin_name in data:
-            return data[plugin_name]["opts"]["empty"]
+            return data[plugin_name].get("opts", {}).get("empty", False)
+        return False
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print(f"[red]Error reading data: {e}[/red]")
+        return False
 
 
 def get_dependencies(plugin_name):
-    with open(SAVE_PATH, "r") as f:
-        data = json.load(f)
-        return data[plugin_name]["dependencies"]
+    try:
+        data = load_data()
+        return data.get(plugin_name, {}).get("dependencies", [])
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print(f"[red]Error reading data: {e}[/red]")
+        return []
 
 
 def is_require_setup(plugin_name):
-    with open(SAVE_PATH, "r") as f:
-        data = json.load(f)
-        return data[plugin_name]["require"]
-
-
-def add_plugin(plugin_name):
-    with open(SAVE_PATH, "r") as f:
-        data = json.load(f)
-        data[plugin_name] = {"opts": {"empty": True}}
+    try:
+        data = load_data()
+        return data.get(plugin_name, {}).get("require", False)
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print(f"[red]Error reading data: {e}[/red]")
+        return False
