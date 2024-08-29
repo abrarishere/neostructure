@@ -1,0 +1,65 @@
+{
+  "m4xshen/smartcolumn.nvim": {
+    "opts": {
+      "empty": true
+    },
+    "dependencies": [],
+    "require": false
+  },
+  "ecthelionvi/NeoColumn.nvim": {
+    "opts": {
+      "empty": true
+    },
+    "dependencies": [],
+    "require": false
+  },
+  "utilyre/barbecue.nvim": {
+    "opts": {
+      "empty": true
+    },
+    "dependencies": ["m4xshen/smartcolumn.nvim"],
+    "require": false
+  },
+  "Bekaboo/dropbar.nvim": {
+    "opts": {
+      "empty": true
+    },
+    "dependencies": ["nvim-telescope/telescope-fzf-native.nvim"],
+    "require": false
+  },
+  "luukvbaal/statuscol.nvim": {
+    "opts": {
+      "empty": true
+    },
+    "dependencies": [],
+    "require": true
+  },
+  "nvim-lualine/lualine.nvim": {
+    "opts": {
+      "empty": true
+    },
+    "dependencies": ["nvim-tree/nvim-web-devicons"],
+    "require": false
+  },
+  "adelarsq/neoline.vim": {
+    "opts": {
+      "empty": true
+    },
+    "dependencies": [],
+    "require": false
+  },
+  "ojroques/nvim-hardline": {
+    "opts": {
+      "empty": true
+    },
+    "dependencies": [],
+    "require": true
+  },
+  "freddiehaddad/feline.nvim": {
+    "opts": {
+      "empty": true
+    },
+    "dependencies": [],
+    "require": true
+  }
+}
