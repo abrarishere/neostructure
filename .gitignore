@@ -10,3 +10,5 @@ venv/
 *.swm
 *.swl
 
+dist
+neostructure.egg-info
