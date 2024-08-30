@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+certifi = "==2024.7.4"
+charset-normalizer = "==3.3.2"
+idna = "==3.8"
+markdown-it-py = "==3.0.0"
+mdurl = "==0.1.2"
+prompt-toolkit = "==3.0.47"
+pygments = "==2.18.0"
+requests = "==2.32.3"
+rich = "==13.8.0"
+urllib3 = "==2.2.2"
+wcwidth = "==0.2.13"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
