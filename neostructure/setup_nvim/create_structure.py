@@ -4,9 +4,11 @@ import shutil
 
 from rich.console import Console
 
-from neostructure.setup_nvim.get_opts import (get_dependencies,
-                                              is_plugin_present,
-                                              is_require_setup)
+from neostructure.setup_nvim.get_opts import (
+    get_dependencies,
+    is_plugin_present,
+    is_require_setup,
+)
 
 console = Console()
 

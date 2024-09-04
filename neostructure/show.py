@@ -61,7 +61,7 @@ def show_plugins(data, category):
         return []
 
     table = Table(show_header=True, header_style="bold magenta")
-    table.add_column("Select", style="dim", width=6)
+    table.add_column("Select", style="dim", width=3)
     table.add_column("Name", style="dim")
     table.add_column("URL")
     table.add_column("Description")

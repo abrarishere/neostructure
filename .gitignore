@@ -12,3 +12,6 @@ venv/
 
 dist
 neostructure.egg-info
+neostructure/markdowns/jsons/links.json
+neostructure/markdowns/jsons/enhancements.json
+neostructure/markdowns/mds/links.md

@@ -349,6 +349,11 @@
             "description": "Jump to next/previous LSP reference for item under cursor with `]r`/`[r`."
         },
         {
+            "name": "alexpasmantier/pymple.nvim",
+            "url": "https://github.com/alexpasmantier/pymple.nvim",
+            "description": "Refactor Python imports on file move/rename."
+        },
+        {
             "name": "anott03/nvim-lspinstall",
             "url": "https://github.com/anott03/nvim-lspinstall",
             "description": "Easy to install language servers."
@@ -533,8 +538,8 @@
             "description": "Chat with your code as if you are in Cursor AI IDE."
         },
         {
-            "name": "StubbornVegeta/llm.nvim",
-            "url": "https://github.com/StubbornVegeta/llm.nvim",
+            "name": "Kurama622/llm.nvim",
+            "url": "https://github.com/Kurama622/llm.nvim",
             "description": "Free large language model (LLM) support, provides commands to interact with LLM."
         },
         {
@@ -853,6 +858,11 @@
             "name": "Kicamon/markdown-table-mode.nvim",
             "url": "https://github.com/Kicamon/markdown-table-mode.nvim",
             "description": "Markdown format plugin like vim-table-mode but write in Lua."
+        },
+        {
+            "name": "SCJangra/table-nvim",
+            "url": "https://github.com/SCJangra/table-nvim",
+            "description": "A markdown table editor that formats the table as you type."
         },
         {
             "name": "gbprod/phpactor.nvim",
